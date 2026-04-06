@@ -166,6 +166,9 @@ def main():
             logger.info("Successfully sent email digest")
         else:
             logger.info("Email digest skipped or failed")
+
+        if email_notifier.state_file.exists():
+            report_files["email_state"] = str(email_notifier.state_file)
         
         # GitHub Integration
         if github.enabled:
