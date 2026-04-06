@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T21:47:08.188088",
+  "generated_at": "2026-04-06T22:44:16.483439",
   "total_jobs": 82,
   "jobs": [
     {
@@ -78,7 +78,7 @@
         ]
       },
       "score": 33.0,
-      "processed_at": "2026-04-06T21:47:07.923803"
+      "processed_at": "2026-04-06T22:44:16.215925"
     },
     {
       "id": "ashby_ramp_31f7e045-9a51-4a75-9ffc-d815d6db6daa",
@@ -114,7 +114,7 @@
         "descriptionPlain": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.\n\nThe median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.\n\nIf you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.\n\nNOTE: This is for Summer 2026, we'll start hiring for Fall 2026 internships in January :)\n\nExplore our Engineering Blog https://builders.ramp.com & Emerging Talent https://builders.ramp.com/emerging-talent Blog for insights into our tech stack, mission, and values!\n\n\nABOUT THE ROLE\n\nRamp is, at its core, an engineering company, and is on a mission to build the best engineering team in the US! We are looking for frontend and full-stack engineering interns who are excited to be part of our early story and help us build a diverse and vibrant tech community. Our ideal candidate has a deep understanding of JavaScript, a passion for web performance, and can creatively come up with solutions to solve customer's needs. Our tech stack currently involves TypeScript, React, Vite, and Ryu, our in-house design system.\n\n\nWHAT YOU'LL DO\n\n - Build performant, beautiful, and usable interfaces that solve for growing businesses with complex needs\n\n - Ship products and services in cross-functional teams\n\n - Work with sales and business teams to incorporate and productize customer feedback\n\n - Help establish engineering processes, tools, and systems that will allow us to scale the code base, productivity, and the team\n\n\nWHAT YOU'LL NEED\n\n - Currently pursuing a B.S. (or higher) in Computer Science or a related technical field, with an expected graduation date between 2026 - 2028\n\n - Proficiency in JavaScript, with a knack for getting the visuals right\n\n - Experience with one or more object-oriented programming languages\n\n - Track record of shipping high-quality products and features, or a portfolio of side projects\n\n - Ability to turn business and product ideas into engineering solutions\n\n - Desire to work in a fast-paced environment, continuously grow, and master your craft\n\n - Alignment with Ramp’s core values of enabling businesses to grow more by spending less\n\n\nNICE TO HAVES\n\n - Proficiency in React v16+\n\n - Familiarity with or desire to learn our tech stack, which includes, but not limited to: Flask (Python), Elixir, AWS, RabbitMQ, PostgreSQL\n\n - Passion for, or curiosity to learn, financial technology\n\n\nCOMPENSATION\n\n - The monthly rate for this internship is $11,700 USD + housing stipend\n\n\nRAMP BENEFITS\n\n - Apple MacBook\n\n - Catered Lunches in NYC office Monday through Friday\n\n\nBENEFITS (FOR U.S.-BASED FULL-TIME EMPLOYEES)\n\n - 100% medical, dental & vision insurance coverage for you\n   \n   - Partially covered for your dependents\n   \n   - One Medical annual membership\n\n - 401k (including employer match on contributions made while employed by Ramp)\n\n - Flexible PTO\n\n - Fertility HRA (up to $10,000 per year)\n\n - Parental Leave\n\n - Unlimited AI token usage\n\n - Pet insurance\n\n - Centralized home-office equipment ordering for all employees\n\n - Health and Wellness stipend\n\n - In-office perks: lunch, snacks, drinks, and more\n\n - Budget for intra-office travel\n\n - Relocation support to NYC or SF (as needed)\n\n\nREFERRAL INSTRUCTIONS\n\nIf you are being referred for the role, please contact that person to apply on your behalf.\n\n\nOTHER NOTICES\n\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\n\nBeware of recruiting scams: Ramp will only contact you through official @Ramp.com http://Ramp.com email addresses and will never ask for payment or sensitive personal information during the hiring process.\n\nRamp Applicant Privacy Notice https://ramp.com/legal/applicant-privacy-notice"
       },
       "score": 32.0,
-      "processed_at": "2026-04-06T21:47:07.894172"
+      "processed_at": "2026-04-06T22:44:16.185786"
     },
     {
       "id": "gh_cloudflare_7296929",
@@ -192,7 +192,7 @@
         ]
       },
       "score": 29.0,
-      "processed_at": "2026-04-06T21:47:07.934195"
+      "processed_at": "2026-04-06T22:44:16.226427"
     },
     {
       "id": "gh_cloudflare_7206269",
@@ -270,7 +270,7 @@
         ]
       },
       "score": 29.0,
-      "processed_at": "2026-04-06T21:47:07.935026"
+      "processed_at": "2026-04-06T22:44:16.227261"
     },
     {
       "id": "ashby_ramp_67fadb77-43d8-4449-954b-d4cf2c6d3b8b",
@@ -317,7 +317,7 @@
         "descriptionPlain": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.\n\nThe median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.\n\nIf you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.\n\nCheck out our Engineering Blog https://engineering.ramp.com/ and Emerging Talent Blog https://builders.ramp.com/emerging-talent for more on our tech stack, mission and values!\n\nAbout the Role\n\nRamp is, at its core, an engineering company, and is on a mission to build the best engineering team in NYC and SF! We are rapidly scaling our mobile app, and our ideal candidate will contribute to building the next iteration of Ramp on Mobile with our world-class team.\n\nWe are looking for an Android intern for our 12 or 16-week Summer Program (May 2026 - August 2026) who is excited to be a part of our early story and help us build a diverse and vibrant tech community. We hire engineers with a broad set of technical skills who are highly cross-functional and eager to solve a wide range of engineering challenges. Our ideal candidate has a strong sense of ownership and enjoys owning projects from inception to scaling them in production. We value people who take pride in their work and show an aptitude for learning quickly, whether they’re familiar with our stack or not. As an intern, you’ll be working with a nimble team of committed and talented engineers and having a large, long-term impact on technical design and engineering culture.\n\n\nWHAT YOU'LL DO\n\n - Design, build, and launch new products on Ramp’s Android App\n\n - Work with Product and Design to plan and identify key features to make the app successful\n\n - Work with other engineers to build all the necessary services to support the app\n\n - Have a large, long-term impact on technical design and engineering culture\n\n - Ship products and services in cross-functional teams\n\n - Establish and influence engineering processes, tools, and systems that will allow us to scale the code base, productivity, and team\n\n\nWHAT YOU'LL NEED\n\n - Currently pursuing a B.S. (or higher) in Computer Science or a related technical field, with an expected graduation date between 2026 - 2028\n\n - Proficiency in Kotlin for Android development\n\n - Knowledge of Android UI components and Android SDK\n\n - Experience contributing at least one mobile app and/or several features that reached a large number of users\n\n - Track record of shipping high-quality products and features or a portfolio of side projects\n\n - Desire to work in a fast-paced environment, continuously grow and master your craft\n\n - Drive to learn new technologies and adapt to different situations\n\n - Strong understanding of mobile design patterns and best practices\n\n - Understanding of security best practices for mobile apps\n\n\nNICE TO HAVES\n\n - Experience with web apps (React, TypeScript)\n\n - Experience with backend technologies (Python, Flask, SQL, OpenAPI)\n\n - Experience with our mobile stack: Compose, MVVM, coroutines, flows, gradle, OpenAPI & Buildkite\n\n - Experience managing apps in the Google Play Console\n\n\nCOMPENSATION\n\n - The monthly rate for this internship is $11,000 USD + housing stipend\n\n\nRAMP BENEFITS\n\n - Apple Macbook\n\n - Catered Lunches in the NYC office\n\n\nBENEFITS (FOR U.S.-BASED FULL-TIME EMPLOYEES)\n\n - 100% medical, dental & vision insurance coverage for you\n   \n   - Partially covered for your dependents\n   \n   - One Medical annual membership\n\n - 401k (including employer match on contributions made while employed by Ramp)\n\n - Flexible PTO\n\n - Fertility HRA (up to $10,000 per year)\n\n - Parental Leave\n\n - Unlimited AI token usage\n\n - Pet insurance\n\n - Centralized home-office equipment ordering for all employees\n\n - Health and Wellness stipend\n\n - In-office perks: lunch, snacks, drinks, and more\n\n - Budget for intra-office travel\n\n - Relocation support to NYC or SF (as needed)\n\n\nREFERRAL INSTRUCTIONS\n\nIf you are being referred for the role, please contact that person to apply on your behalf.\n\n\nOTHER NOTICES\n\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\n\nBeware of recruiting scams: Ramp will only contact you through official @Ramp.com http://Ramp.com email addresses and will never ask for payment or sensitive personal information during the hiring process.\n\nRamp Applicant Privacy Notice https://ramp.com/legal/applicant-privacy-notice"
       },
       "score": 28.0,
-      "processed_at": "2026-04-06T21:47:07.894394"
+      "processed_at": "2026-04-06T22:44:16.186057"
     },
     {
       "id": "gh_cloudflare_7582157",
@@ -396,7 +396,7 @@
         ]
       },
       "score": 22.0,
-      "processed_at": "2026-04-06T21:47:07.928139"
+      "processed_at": "2026-04-06T22:44:16.220293"
     },
     {
       "id": "gh_pinterest_7268778",
@@ -470,7 +470,7 @@
         ]
       },
       "score": 20.0,
-      "processed_at": "2026-04-06T21:47:07.976220"
+      "processed_at": "2026-04-06T22:44:16.268461"
     },
     {
       "id": "gh_stripe_7477571",
@@ -525,7 +525,7 @@
         ]
       },
       "score": 18.0,
-      "processed_at": "2026-04-06T21:47:07.883650"
+      "processed_at": "2026-04-06T22:44:16.175265"
     },
     {
       "id": "lever_palantir_94984771-0704-446c-88c6-91ce748f6d92",
@@ -576,7 +576,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92/apply"
       },
       "score": 18.0,
-      "processed_at": "2026-04-06T21:47:08.005986"
+      "processed_at": "2026-04-06T22:44:16.298316"
     },
     {
       "id": "lever_palantir_dea9d3d5-75b2-4588-b7bd-585a47b79c8c",
@@ -627,7 +627,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/dea9d3d5-75b2-4588-b7bd-585a47b79c8c/apply"
       },
       "score": 18.0,
-      "processed_at": "2026-04-06T21:47:08.006313"
+      "processed_at": "2026-04-06T22:44:16.298616"
     },
     {
       "id": "lever_palantir_4d5a144e-87ea-45e2-a68c-3fad590629af",
@@ -678,7 +678,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af/apply"
       },
       "score": 18.0,
-      "processed_at": "2026-04-06T21:47:08.007322"
+      "processed_at": "2026-04-06T22:44:16.299618"
     },
     {
       "id": "lever_palantir_e1a6c138-98bf-45e2-97f7-2c70371cc38a",
@@ -729,7 +729,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a/apply"
       },
       "score": 18.0,
-      "processed_at": "2026-04-06T21:47:08.007476"
+      "processed_at": "2026-04-06T22:44:16.299771"
     },
     {
       "id": "gh_roblox_7557909",
@@ -828,7 +828,7 @@
         ]
       },
       "score": 17.0,
-      "processed_at": "2026-04-06T21:47:07.963242"
+      "processed_at": "2026-04-06T22:44:16.255440"
     },
     {
       "id": "lever_palantir_2fb19022-bb65-4af8-b6fa-31beb345c140",
@@ -879,7 +879,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/2fb19022-bb65-4af8-b6fa-31beb345c140/apply"
       },
       "score": 17.0,
-      "processed_at": "2026-04-06T21:47:08.004043"
+      "processed_at": "2026-04-06T22:44:16.296348"
     },
     {
       "id": "lever_palantir_7d69cf8a-06fd-4f05-bd84-27149db29c4d",
@@ -930,7 +930,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d/apply"
       },
       "score": 17.0,
-      "processed_at": "2026-04-06T21:47:08.004316"
+      "processed_at": "2026-04-06T22:44:16.296624"
     },
     {
       "id": "lever_palantir_373367a9-3160-49d8-b7af-2efec062fad1",
@@ -981,7 +981,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1/apply"
       },
       "score": 17.0,
-      "processed_at": "2026-04-06T21:47:08.005371"
+      "processed_at": "2026-04-06T22:44:16.297698"
     },
     {
       "id": "lever_palantir_37964982-9b4c-471e-a1d8-fb8f45d7f116",
@@ -1032,7 +1032,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116/apply"
       },
       "score": 17.0,
-      "processed_at": "2026-04-06T21:47:08.005534"
+      "processed_at": "2026-04-06T22:44:16.297878"
     },
     {
       "id": "lever_palantir_4abf26b4-795c-420a-bf22-1ab98db268b4",
@@ -1083,7 +1083,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/4abf26b4-795c-420a-bf22-1ab98db268b4/apply"
       },
       "score": 17.0,
-      "processed_at": "2026-04-06T21:47:08.006489"
+      "processed_at": "2026-04-06T22:44:16.298790"
     },
     {
       "id": "ever_linkedin_li-software-engineer-internship-co-op-applied-emerging-talent-fall-2026-at-openai-4353601168",
@@ -1109,7 +1109,7 @@
         "site": "linkedin"
       },
       "score": 17.0,
-      "processed_at": "2026-04-06T21:47:08.017213"
+      "processed_at": "2026-04-06T22:44:16.309711"
     },
     {
       "id": "ever_linkedin_li-software-engineer-intern-spring-summer-2026-at-cohere-4359019903",
@@ -1135,7 +1135,7 @@
         "site": "linkedin"
       },
       "score": 17.0,
-      "processed_at": "2026-04-06T21:47:08.017350"
+      "processed_at": "2026-04-06T22:44:16.309878"
     },
     {
       "id": "ever_linkedin_li-software-engineer-internship-frontend-at-ramp-4387496388",
@@ -1161,7 +1161,7 @@
         "site": "linkedin"
       },
       "score": 17.0,
-      "processed_at": "2026-04-06T21:47:08.017414"
+      "processed_at": "2026-04-06T22:44:16.309952"
     },
     {
       "id": "ever_linkedin_li-data-engineer-intern-summer-2026-at-cloudflare-4337890313",
@@ -1187,7 +1187,7 @@
         "site": "linkedin"
       },
       "score": 17.0,
-      "processed_at": "2026-04-06T21:47:08.050336"
+      "processed_at": "2026-04-06T22:44:16.343430"
     },
     {
       "id": "lever_palantir_b229baac-494b-4a0d-9a13-2e38806e06f3",
@@ -1238,7 +1238,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3/apply"
       },
       "score": 16.0,
-      "processed_at": "2026-04-06T21:47:08.004828"
+      "processed_at": "2026-04-06T22:44:16.297156"
     },
     {
       "id": "lever_palantir_15844944-fb69-4b57-9531-e988650b20c6",
@@ -1289,7 +1289,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply"
       },
       "score": 16.0,
-      "processed_at": "2026-04-06T21:47:08.006990"
+      "processed_at": "2026-04-06T22:44:16.299309"
     },
     {
       "id": "ever_linkedin_li-2026-ai-ml-intern-machine-learning-engineer-intern-at-adobe-4322591372",
@@ -1315,7 +1315,7 @@
         "site": "linkedin"
       },
       "score": 16.0,
-      "processed_at": "2026-04-06T21:47:08.057168"
+      "processed_at": "2026-04-06T22:44:16.350523"
     },
     {
       "id": "lever_palantir_bdcfb29f-4f27-42de-933f-7f83a359b9f0",
@@ -1366,7 +1366,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0/apply"
       },
       "score": 15.0,
-      "processed_at": "2026-04-06T21:47:08.004467"
+      "processed_at": "2026-04-06T22:44:16.296772"
     },
     {
       "id": "lever_palantir_e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
@@ -1417,7 +1417,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c/apply"
       },
       "score": 15.0,
-      "processed_at": "2026-04-06T21:47:08.004648"
+      "processed_at": "2026-04-06T22:44:16.296976"
     },
     {
       "id": "lever_palantir_3ab9e715-1ea9-4c6c-ad50-7340eac14e86",
@@ -1468,7 +1468,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86/apply"
       },
       "score": 15.0,
-      "processed_at": "2026-04-06T21:47:08.005708"
+      "processed_at": "2026-04-06T22:44:16.298037"
     },
     {
       "id": "lever_palantir_7d75bed5-45d8-4876-840a-2d92ea79c98d",
@@ -1519,85 +1519,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d/apply"
       },
       "score": 15.0,
-      "processed_at": "2026-04-06T21:47:08.006701"
-    },
-    {
-      "id": "ever_linkedin_li-data-engineer-intern-2026-business-intelligence-at-ibm-4393134750",
-      "title": "Data Engineer Intern 2026 - Business Intelligence",
-      "company": "IBM",
-      "location": "Buffalo, NY",
-      "url": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-business-intelligence-at-ibm-4393134750",
-      "description": "",
-      "date_posted": "2026-03-28",
-      "source": "ever_jobs:linkedin",
-      "raw_data": {
-        "id": "li-data-engineer-intern-2026-business-intelligence-at-ibm-4393134750",
-        "title": "Data Engineer Intern 2026 - Business Intelligence",
-        "companyName": "IBM",
-        "companyUrl": "https://www.linkedin.com/company/ibm?trk=public_jobs_jserp-result_job-search-card-subtitle",
-        "jobUrl": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-business-intelligence-at-ibm-4393134750",
-        "location": {
-          "city": "Buffalo, NY"
-        },
-        "compensation": null,
-        "datePosted": "2026-03-28",
-        "isRemote": false,
-        "site": "linkedin"
-      },
-      "score": 15.0,
-      "processed_at": "2026-04-06T21:47:08.050818"
-    },
-    {
-      "id": "ever_linkedin_li-data-engineer-intern-2026-advanced-analytics-at-ibm-4393141973",
-      "title": "Data Engineer Intern 2026 - Advanced Analytics",
-      "company": "IBM",
-      "location": "Baton Rouge, LA",
-      "url": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-advanced-analytics-at-ibm-4393141973",
-      "description": "",
-      "date_posted": "2026-03-28",
-      "source": "ever_jobs:linkedin",
-      "raw_data": {
-        "id": "li-data-engineer-intern-2026-advanced-analytics-at-ibm-4393141973",
-        "title": "Data Engineer Intern 2026 - Advanced Analytics",
-        "companyName": "IBM",
-        "companyUrl": "https://www.linkedin.com/company/ibm?trk=public_jobs_jserp-result_job-search-card-subtitle",
-        "jobUrl": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-advanced-analytics-at-ibm-4393141973",
-        "location": {
-          "city": "Baton Rouge, LA"
-        },
-        "compensation": null,
-        "datePosted": "2026-03-28",
-        "isRemote": false,
-        "site": "linkedin"
-      },
-      "score": 15.0,
-      "processed_at": "2026-04-06T21:47:08.050913"
-    },
-    {
-      "id": "ever_linkedin_li-data-engineer-intern-2026-data-platforms-at-ibm-4393135721",
-      "title": "Data Engineer Intern 2026- Data Platforms",
-      "company": "IBM",
-      "location": "Lansing, MI",
-      "url": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-data-platforms-at-ibm-4393135721",
-      "description": "",
-      "date_posted": "2026-03-28",
-      "source": "ever_jobs:linkedin",
-      "raw_data": {
-        "id": "li-data-engineer-intern-2026-data-platforms-at-ibm-4393135721",
-        "title": "Data Engineer Intern 2026- Data Platforms",
-        "companyName": "IBM",
-        "companyUrl": "https://www.linkedin.com/company/ibm?trk=public_jobs_jserp-result_job-search-card-subtitle",
-        "jobUrl": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-data-platforms-at-ibm-4393135721",
-        "location": {
-          "city": "Lansing, MI"
-        },
-        "compensation": null,
-        "datePosted": "2026-03-28",
-        "isRemote": false,
-        "site": "linkedin"
-      },
-      "score": 15.0,
-      "processed_at": "2026-04-06T21:47:08.050961"
+      "processed_at": "2026-04-06T22:44:16.299019"
     },
     {
       "id": "ever_linkedin_li-data-engineer-intern-%E2%80%93-client-innovation-center-entry-level-at-ibm-4372629194",
@@ -1623,7 +1545,7 @@
         "site": "linkedin"
       },
       "score": 15.0,
-      "processed_at": "2026-04-06T21:47:08.139148"
+      "processed_at": "2026-04-06T22:44:16.343605"
     },
     {
       "id": "ever_linkedin_li-data-engineer-intern-%E2%80%93-client-innovation-center-entry-level-at-ibm-4372622545",
@@ -1649,7 +1571,7 @@
         "site": "linkedin"
       },
       "score": 15.0,
-      "processed_at": "2026-04-06T21:47:08.139241"
+      "processed_at": "2026-04-06T22:44:16.343663"
     },
     {
       "id": "ever_linkedin_li-data-engineer-intern-%E2%80%93-client-innovation-center-entry-level-at-ibm-4372616858",
@@ -1675,7 +1597,111 @@
         "site": "linkedin"
       },
       "score": 15.0,
-      "processed_at": "2026-04-06T21:47:08.139295"
+      "processed_at": "2026-04-06T22:44:16.343750"
+    },
+    {
+      "id": "ever_linkedin_li-data-engineer-intern-2026-business-intelligence-at-ibm-4393134750",
+      "title": "Data Engineer Intern 2026 - Business Intelligence",
+      "company": "IBM",
+      "location": "Buffalo, NY",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-business-intelligence-at-ibm-4393134750",
+      "description": "",
+      "date_posted": "2026-03-28",
+      "source": "ever_jobs:linkedin",
+      "raw_data": {
+        "id": "li-data-engineer-intern-2026-business-intelligence-at-ibm-4393134750",
+        "title": "Data Engineer Intern 2026 - Business Intelligence",
+        "companyName": "IBM",
+        "companyUrl": "https://www.linkedin.com/company/ibm?trk=public_jobs_jserp-result_job-search-card-subtitle",
+        "jobUrl": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-business-intelligence-at-ibm-4393134750",
+        "location": {
+          "city": "Buffalo, NY"
+        },
+        "compensation": null,
+        "datePosted": "2026-03-28",
+        "isRemote": false,
+        "site": "linkedin"
+      },
+      "score": 15.0,
+      "processed_at": "2026-04-06T22:44:16.344093"
+    },
+    {
+      "id": "ever_linkedin_li-data-engineer-intern-2026-data-platforms-at-ibm-4393139549",
+      "title": "Data Engineer Intern 2026- Data Platforms",
+      "company": "IBM",
+      "location": "Buffalo, NY",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-data-platforms-at-ibm-4393139549",
+      "description": "",
+      "date_posted": "2026-03-28",
+      "source": "ever_jobs:linkedin",
+      "raw_data": {
+        "id": "li-data-engineer-intern-2026-data-platforms-at-ibm-4393139549",
+        "title": "Data Engineer Intern 2026- Data Platforms",
+        "companyName": "IBM",
+        "companyUrl": "https://www.linkedin.com/company/ibm?trk=public_jobs_jserp-result_job-search-card-subtitle",
+        "jobUrl": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-data-platforms-at-ibm-4393139549",
+        "location": {
+          "city": "Buffalo, NY"
+        },
+        "compensation": null,
+        "datePosted": "2026-03-28",
+        "isRemote": false,
+        "site": "linkedin"
+      },
+      "score": 15.0,
+      "processed_at": "2026-04-06T22:44:16.344181"
+    },
+    {
+      "id": "ever_linkedin_li-data-engineer-intern-2026-data-platforms-at-ibm-4393135721",
+      "title": "Data Engineer Intern 2026- Data Platforms",
+      "company": "IBM",
+      "location": "Lansing, MI",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-data-platforms-at-ibm-4393135721",
+      "description": "",
+      "date_posted": "2026-03-28",
+      "source": "ever_jobs:linkedin",
+      "raw_data": {
+        "id": "li-data-engineer-intern-2026-data-platforms-at-ibm-4393135721",
+        "title": "Data Engineer Intern 2026- Data Platforms",
+        "companyName": "IBM",
+        "companyUrl": "https://www.linkedin.com/company/ibm?trk=public_jobs_jserp-result_job-search-card-subtitle",
+        "jobUrl": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-data-platforms-at-ibm-4393135721",
+        "location": {
+          "city": "Lansing, MI"
+        },
+        "compensation": null,
+        "datePosted": "2026-03-28",
+        "isRemote": false,
+        "site": "linkedin"
+      },
+      "score": 15.0,
+      "processed_at": "2026-04-06T22:44:16.344263"
+    },
+    {
+      "id": "ever_linkedin_li-data-engineer-intern-2026-advanced-analytics-at-ibm-4393141973",
+      "title": "Data Engineer Intern 2026 - Advanced Analytics",
+      "company": "IBM",
+      "location": "Baton Rouge, LA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-advanced-analytics-at-ibm-4393141973",
+      "description": "",
+      "date_posted": "2026-03-28",
+      "source": "ever_jobs:linkedin",
+      "raw_data": {
+        "id": "li-data-engineer-intern-2026-advanced-analytics-at-ibm-4393141973",
+        "title": "Data Engineer Intern 2026 - Advanced Analytics",
+        "companyName": "IBM",
+        "companyUrl": "https://www.linkedin.com/company/ibm?trk=public_jobs_jserp-result_job-search-card-subtitle",
+        "jobUrl": "https://www.linkedin.com/jobs/view/data-engineer-intern-2026-advanced-analytics-at-ibm-4393141973",
+        "location": {
+          "city": "Baton Rouge, LA"
+        },
+        "compensation": null,
+        "datePosted": "2026-03-28",
+        "isRemote": false,
+        "site": "linkedin"
+      },
+      "score": 15.0,
+      "processed_at": "2026-04-06T22:44:16.344314"
     },
     {
       "id": "lever_palantir_f221738b-e97c-4ce3-a12a-17ada2b855e4",
@@ -1726,7 +1752,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4/apply"
       },
       "score": 14.0,
-      "processed_at": "2026-04-06T21:47:08.005022"
+      "processed_at": "2026-04-06T22:44:16.297371"
     },
     {
       "id": "gh_stripe_7210115",
@@ -1893,7 +1919,7 @@
         ]
       },
       "score": 12.0,
-      "processed_at": "2026-04-06T21:47:07.884743"
+      "processed_at": "2026-04-06T22:44:16.176364"
     },
     {
       "id": "ever_linkedin_li-back-end-developer-intern-2026-at-ibm-4391926877",
@@ -1919,7 +1945,7 @@
         "site": "linkedin"
       },
       "score": 12.0,
-      "processed_at": "2026-04-06T21:47:08.028544"
+      "processed_at": "2026-04-06T22:44:16.321128"
     },
     {
       "id": "gh_roblox_7654991",
@@ -2022,7 +2048,7 @@
         ]
       },
       "score": 11.0,
-      "processed_at": "2026-04-06T21:47:07.969844"
+      "processed_at": "2026-04-06T22:44:16.261977"
     },
     {
       "id": "gh_datadog_7536159",
@@ -2140,7 +2166,7 @@
         ]
       },
       "score": 10.0,
-      "processed_at": "2026-04-06T21:47:07.952112"
+      "processed_at": "2026-04-06T22:44:16.244173"
     },
     {
       "id": "ever_linkedin_li-back-end-developer-intern-2026-at-ibm-4372612843",
@@ -2166,7 +2192,7 @@
         "site": "linkedin"
       },
       "score": 10.0,
-      "processed_at": "2026-04-06T21:47:08.028292"
+      "processed_at": "2026-04-06T22:44:16.320817"
     },
     {
       "id": "ever_linkedin_li-back-end-developer-intern-2026-at-ibm-4372629050",
@@ -2192,7 +2218,7 @@
         "site": "linkedin"
       },
       "score": 10.0,
-      "processed_at": "2026-04-06T21:47:08.028341"
+      "processed_at": "2026-04-06T22:44:16.320890"
     },
     {
       "id": "ever_linkedin_li-back-end-developer-intern-2026-at-ibm-4372612844",
@@ -2218,7 +2244,7 @@
         "site": "linkedin"
       },
       "score": 10.0,
-      "processed_at": "2026-04-06T21:47:08.044438"
+      "processed_at": "2026-04-06T22:44:16.337393"
     },
     {
       "id": "ever_linkedin_li-back-end-developer-intern-2026-at-ibm-4372623388",
@@ -2244,7 +2270,7 @@
         "site": "linkedin"
       },
       "score": 10.0,
-      "processed_at": "2026-04-06T21:47:08.044632"
+      "processed_at": "2026-04-06T22:44:16.337559"
     },
     {
       "id": "ever_linkedin_li-junior-software-engineer-at-lucid-services-group-4397352367",
@@ -2270,7 +2296,7 @@
         "site": "linkedin"
       },
       "score": 10.0,
-      "processed_at": "2026-04-06T21:47:08.078704"
+      "processed_at": "2026-04-06T22:44:16.372092"
     },
     {
       "id": "ever_nvidia_893394392298",
@@ -2297,7 +2323,7 @@
         "atsId": "JR2015076"
       },
       "score": 10.0,
-      "processed_at": "2026-04-06T21:47:08.091656"
+      "processed_at": "2026-04-06T22:44:16.385294"
     },
     {
       "id": "gh_lucidmotors_4953706007",
@@ -2389,7 +2415,7 @@
         ]
       },
       "score": 8.0,
-      "processed_at": "2026-04-06T21:47:07.987310"
+      "processed_at": "2026-04-06T22:44:16.279813"
     },
     {
       "id": "gh_twilio_7748961",
@@ -2451,7 +2477,7 @@
         ]
       },
       "score": 6.0,
-      "processed_at": "2026-04-06T21:47:07.940976"
+      "processed_at": "2026-04-06T22:44:16.233265"
     },
     {
       "id": "lever_palantir_02fe0b60-6fc4-46dd-b0e3-e0d3da3aaa4d",
@@ -2502,7 +2528,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/02fe0b60-6fc4-46dd-b0e3-e0d3da3aaa4d/apply"
       },
       "score": 6.0,
-      "processed_at": "2026-04-06T21:47:08.002594"
+      "processed_at": "2026-04-06T22:44:16.294947"
     },
     {
       "id": "lever_palantir_ac0dc094-2480-43c2-8495-26ade227ff4f",
@@ -2553,7 +2579,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f/apply"
       },
       "score": 5.0,
-      "processed_at": "2026-04-06T21:47:08.000987"
+      "processed_at": "2026-04-06T22:44:16.293257"
     },
     {
       "id": "lever_palantir_d582cd84-14fd-4aa3-b413-15982d286bd9",
@@ -2604,7 +2630,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9/apply"
       },
       "score": 5.0,
-      "processed_at": "2026-04-06T21:47:08.001102"
+      "processed_at": "2026-04-06T22:44:16.293370"
     },
     {
       "id": "ever_linkedin_li-internship-software-engineer-data-engineering-analytics-summer-2026-at-tesla-4366250365",
@@ -2630,7 +2656,7 @@
         "site": "linkedin"
       },
       "score": 5.0,
-      "processed_at": "2026-04-06T21:47:08.011336"
+      "processed_at": "2026-04-06T22:44:16.303778"
     },
     {
       "id": "ever_linkedin_li-software-engineer-intern-summer-at-stripe-4369008349",
@@ -2656,7 +2682,7 @@
         "site": "linkedin"
       },
       "score": 5.0,
-      "processed_at": "2026-04-06T21:47:08.016542"
+      "processed_at": "2026-04-06T22:44:16.309026"
     },
     {
       "id": "ever_linkedin_li-software-engineer-intern-fall-2026-at-sentry-4395366725",
@@ -2682,7 +2708,7 @@
         "site": "linkedin"
       },
       "score": 5.0,
-      "processed_at": "2026-04-06T21:47:08.016729"
+      "processed_at": "2026-04-06T22:44:16.309216"
     },
     {
       "id": "ever_linkedin_li-software-engineer-new-grad-infrastructure-at-palantir-technologies-4258756847",
@@ -2708,7 +2734,7 @@
         "site": "linkedin"
       },
       "score": 5.0,
-      "processed_at": "2026-04-06T21:47:08.068206"
+      "processed_at": "2026-04-06T22:44:16.361606"
     },
     {
       "id": "ever_linkedin_li-software-engineer-new-grad-at-palantir-technologies-4258758768",
@@ -2734,7 +2760,7 @@
         "site": "linkedin"
       },
       "score": 5.0,
-      "processed_at": "2026-04-06T21:47:08.074012"
+      "processed_at": "2026-04-06T22:44:16.367431"
     },
     {
       "id": "ever_linkedin_li-software-engineer-new-grad-production-infrastructure-at-palantir-technologies-4258760118",
@@ -2760,7 +2786,7 @@
         "site": "linkedin"
       },
       "score": 5.0,
-      "processed_at": "2026-04-06T21:47:08.074055"
+      "processed_at": "2026-04-06T22:44:16.367477"
     },
     {
       "id": "ever_linkedin_li-graduate-2026-software-engineer-i-us-at-uber-4397783504",
@@ -2786,7 +2812,7 @@
         "site": "linkedin"
       },
       "score": 5.0,
-      "processed_at": "2026-04-06T21:47:08.078246"
+      "processed_at": "2026-04-06T22:44:16.371655"
     },
     {
       "id": "ever_linkedin_li-graduate-2026-software-engineer-i-us-at-uber-4397778689",
@@ -2812,7 +2838,7 @@
         "site": "linkedin"
       },
       "score": 5.0,
-      "processed_at": "2026-04-06T21:47:08.078354"
+      "processed_at": "2026-04-06T22:44:16.371829"
     },
     {
       "id": "ever_linkedin_li-graduate-2026-software-engineer-i-us-at-uber-4397793120",
@@ -2838,7 +2864,7 @@
         "site": "linkedin"
       },
       "score": 5.0,
-      "processed_at": "2026-04-06T21:47:08.078436"
+      "processed_at": "2026-04-06T22:44:16.371886"
     },
     {
       "id": "lever_palantir_315f695d-04d1-4a9a-848e-cb2bec7a997e",
@@ -2893,7 +2919,7 @@
         "applyUrl": "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e/apply"
       },
       "score": 4.0,
-      "processed_at": "2026-04-06T21:47:08.001239"
+      "processed_at": "2026-04-06T22:44:16.293525"
     },
     {
       "id": "ever_linkedin_li-internship-%E2%80%93-ai-and-machine-learning-at-coherent-corp-4380801826",
@@ -2919,7 +2945,7 @@
         "site": "linkedin"
       },
       "score": 4.0,
-      "processed_at": "2026-04-06T21:47:08.056841"
+      "processed_at": "2026-04-06T22:44:16.350178"
     },
     {
       "id": "ever_linkedin_li-internship-machine-learning-engineer-data-engineering-analytics-summer-2026-at-tesla-4386572587",
@@ -2945,7 +2971,7 @@
         "site": "linkedin"
       },
       "score": 4.0,
-      "processed_at": "2026-04-06T21:47:08.057455"
+      "processed_at": "2026-04-06T22:44:16.350844"
     },
     {
       "id": "ever_linkedin_li-internship-software-engineer-ai-inference-summer-2026-at-tesla-4375066049",
@@ -2971,7 +2997,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.011089"
+      "processed_at": "2026-04-06T22:44:16.303422"
     },
     {
       "id": "ever_linkedin_li-internship-fullstack-software-engineer-fleetnet-summer-2026-at-tesla-4368820681",
@@ -2997,7 +3023,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.011196"
+      "processed_at": "2026-04-06T22:44:16.303593"
     },
     {
       "id": "ever_linkedin_li-internship-software-engineer-service-engineering-summer-2026-at-tesla-4358319616",
@@ -3023,7 +3049,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.011465"
+      "processed_at": "2026-04-06T22:44:16.303960"
     },
     {
       "id": "ever_linkedin_li-internship-software-engineer-update-systems-summer-2026-at-tesla-4344447112",
@@ -3049,7 +3075,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.011548"
+      "processed_at": "2026-04-06T22:44:16.304067"
     },
     {
       "id": "ever_linkedin_li-internship-software-engineer-vehicle-software-summer-2026-at-tesla-4369244828",
@@ -3075,33 +3101,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.023359"
-    },
-    {
-      "id": "ever_linkedin_li-internship-software-engineer-autonomy-telemetry-summer-2026-at-tesla-4343260133",
-      "title": "Internship, Software Engineer, Autonomy Telemetry (Summer 2026)",
-      "company": "Tesla",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/internship-software-engineer-autonomy-telemetry-summer-2026-at-tesla-4343260133",
-      "description": "",
-      "date_posted": "2025-12-10",
-      "source": "ever_jobs:linkedin",
-      "raw_data": {
-        "id": "li-internship-software-engineer-autonomy-telemetry-summer-2026-at-tesla-4343260133",
-        "title": "Internship, Software Engineer, Autonomy Telemetry (Summer 2026)",
-        "companyName": "Tesla",
-        "companyUrl": "https://www.linkedin.com/company/tesla-motors?trk=public_jobs_jserp-result_job-search-card-subtitle",
-        "jobUrl": "https://www.linkedin.com/jobs/view/internship-software-engineer-autonomy-telemetry-summer-2026-at-tesla-4343260133",
-        "location": {
-          "city": "Palo Alto, CA"
-        },
-        "compensation": null,
-        "datePosted": "2025-12-10",
-        "isRemote": false,
-        "site": "linkedin"
-      },
-      "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.023649"
+      "processed_at": "2026-04-06T22:44:16.315952"
     },
     {
       "id": "ever_linkedin_li-ai-fullstack-software-engineer-intern-at-teradata-4394214192",
@@ -3127,7 +3127,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.028116"
+      "processed_at": "2026-04-06T22:44:16.320636"
     },
     {
       "id": "ever_linkedin_li-2026-enterprise-technology-full-stack-developer-summer-intern-at-eisneramper-4395756693",
@@ -3153,7 +3153,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.028186"
+      "processed_at": "2026-04-06T22:44:16.320735"
     },
     {
       "id": "ever_linkedin_li-internship-software-engineer-opticaster-energy-engineering-summer-2026-at-tesla-4383473096",
@@ -3179,7 +3179,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.033818"
+      "processed_at": "2026-04-06T22:44:16.326417"
     },
     {
       "id": "ever_linkedin_li-internship-software-engineer-factory-software-summer-2026-at-tesla-4367351423",
@@ -3205,7 +3205,33 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.034107"
+      "processed_at": "2026-04-06T22:44:16.326744"
+    },
+    {
+      "id": "ever_linkedin_li-internship-software-engineer-autonomy-telemetry-summer-2026-at-tesla-4343260133",
+      "title": "Internship, Software Engineer, Autonomy Telemetry (Summer 2026)",
+      "company": "Tesla",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/internship-software-engineer-autonomy-telemetry-summer-2026-at-tesla-4343260133",
+      "description": "",
+      "date_posted": "2025-12-10",
+      "source": "ever_jobs:linkedin",
+      "raw_data": {
+        "id": "li-internship-software-engineer-autonomy-telemetry-summer-2026-at-tesla-4343260133",
+        "title": "Internship, Software Engineer, Autonomy Telemetry (Summer 2026)",
+        "companyName": "Tesla",
+        "companyUrl": "https://www.linkedin.com/company/tesla-motors?trk=public_jobs_jserp-result_job-search-card-subtitle",
+        "jobUrl": "https://www.linkedin.com/jobs/view/internship-software-engineer-autonomy-telemetry-summer-2026-at-tesla-4343260133",
+        "location": {
+          "city": "Palo Alto, CA"
+        },
+        "compensation": null,
+        "datePosted": "2025-12-10",
+        "isRemote": false,
+        "site": "linkedin"
+      },
+      "score": 3.0,
+      "processed_at": "2026-04-06T22:44:16.326912"
     },
     {
       "id": "ever_nvidia_893391746411",
@@ -3232,7 +3258,7 @@
         "atsId": "JR2006184"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.036455"
+      "processed_at": "2026-04-06T22:44:16.329192"
     },
     {
       "id": "ever_linkedin_li-internship-software-engineer-data-platforms-summer-2026-at-tesla-4358274580",
@@ -3258,7 +3284,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.040101"
+      "processed_at": "2026-04-06T22:44:16.332921"
     },
     {
       "id": "ever_linkedin_li-internship-software-engineer-energy-engineering-summer-2026-at-tesla-4345027169",
@@ -3284,33 +3310,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.040191"
-    },
-    {
-      "id": "ever_linkedin_li-software-engineer-embedded-network-systems-i-intern-united-states-at-cisco-4337211456",
-      "title": "Software Engineer Embedded/Network Systems I (Intern) - United States",
-      "company": "Cisco",
-      "location": "Hillsboro, OR",
-      "url": "https://www.linkedin.com/jobs/view/software-engineer-embedded-network-systems-i-intern-united-states-at-cisco-4337211456",
-      "description": "",
-      "date_posted": "2026-04-02",
-      "source": "ever_jobs:linkedin",
-      "raw_data": {
-        "id": "li-software-engineer-embedded-network-systems-i-intern-united-states-at-cisco-4337211456",
-        "title": "Software Engineer Embedded/Network Systems I (Intern) - United States",
-        "companyName": "Cisco",
-        "companyUrl": "https://www.linkedin.com/company/cisco?trk=public_jobs_jserp-result_job-search-card-subtitle",
-        "jobUrl": "https://www.linkedin.com/jobs/view/software-engineer-embedded-network-systems-i-intern-united-states-at-cisco-4337211456",
-        "location": {
-          "city": "Hillsboro, OR"
-        },
-        "compensation": null,
-        "datePosted": "2026-04-02",
-        "isRemote": false,
-        "site": "linkedin"
-      },
-      "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.050554"
+      "processed_at": "2026-04-06T22:44:16.333034"
     },
     {
       "id": "ever_linkedin_li-internship-data-engineer-applications-engineering-summer-2026-at-tesla-4385528584",
@@ -3336,7 +3336,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.051477"
+      "processed_at": "2026-04-06T22:44:16.344791"
     },
     {
       "id": "ever_linkedin_li-internship-data-engineer-energy-summer-2026-at-tesla-4362346508",
@@ -3362,7 +3362,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.051611"
+      "processed_at": "2026-04-06T22:44:16.345084"
     },
     {
       "id": "ever_linkedin_li-graduate-2026-software-engineer-i-us-at-uber-4397788357",
@@ -3388,7 +3388,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.078302"
+      "processed_at": "2026-04-06T22:44:16.371738"
     },
     {
       "id": "ever_linkedin_li-software-engineer-new-grad-infrastructure-at-palantir-technologies-4288024879",
@@ -3414,7 +3414,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.089916"
+      "processed_at": "2026-04-06T22:44:16.383476"
     },
     {
       "id": "ever_linkedin_li-software-engineer-new-grad-production-infrastructure-at-palantir-technologies-4288030285",
@@ -3440,7 +3440,7 @@
         "site": "linkedin"
       },
       "score": 3.0,
-      "processed_at": "2026-04-06T21:47:08.183370"
+      "processed_at": "2026-04-06T22:44:16.388314"
     }
   ]
 }
