@@ -25,17 +25,65 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
       
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Clone ever-jobs
+        run: |
+          git clone --depth 1 https://github.com/ever-jobs/ever-jobs.git /tmp/ever-jobs
+
+      - name: Install ever-jobs dependencies
+        working-directory: /tmp/ever-jobs
+        run: |
+          npm ci
+
+      - name: Start ever-jobs API
+        working-directory: /tmp/ever-jobs
+        run: |
+          cat <<'EOF' > .env
+          ENABLE_API_KEY_AUTH=false
+          ENABLE_CACHE=false
+          RATE_LIMIT_ENABLED=false
+          LOG_LEVEL=info
+          NODE_ENV=development
+          PORT=3001
+          EOF
+          nohup npm run start:dev > /tmp/ever-jobs.log 2>&1 &
+
+      - name: Wait for ever-jobs health check
+        run: |
+          for attempt in {1..60}; do
+            if curl -sf http://127.0.0.1:3001/health > /dev/null; then
+              echo "ever-jobs API is healthy"
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "ever-jobs API failed to start"
+          tail -n 200 /tmp/ever-jobs.log || true
+          exit 1
       
       - name: Run job scraping
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          EVER_JOBS_API_URL: http://127.0.0.1:3001
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          ENABLE_EMAIL_NOTIFICATIONS: ${{ secrets.ENABLE_EMAIL_NOTIFICATIONS }}
         run: |
           python main.py
       
@@ -49,3 +97,11 @@ jobs:
             report/
             logs/
           retention-days: 30
+
+      - name: Upload ever-jobs log
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ever-jobs-log
+          path: /tmp/ever-jobs.log
+          retention-days: 7

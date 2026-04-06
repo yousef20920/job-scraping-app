@@ -14,6 +14,25 @@ from processor import JobProcessor
 from reporter import JobReporter
 from github_integration import GitHubIntegration
 from ai_assistant import AIAssistant
+from ever_jobs_integration import EverJobsIntegration
+from email_integration import EmailNotifier
+
+
+def load_env_file(env_file: str = ".env") -> None:
+    """Load simple KEY=VALUE pairs from a local .env file if present."""
+    env_path = Path(env_file)
+    if not env_path.exists():
+        return
+
+    for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        os.environ.setdefault(key, value)
 
 
 def setup_logging():
@@ -58,6 +77,7 @@ def load_config(config_file: str):
 
 def main():
     """Main execution flow"""
+    load_env_file()
     logger = setup_logging()
     logger.info("=" * 80)
     logger.info("Starting Job Scraping Application")
@@ -68,6 +88,8 @@ def main():
         logger.info("Loading configurations...")
         companies_config = load_config('config/companies.yaml')
         keywords_config = load_config('config/keywords.yaml')
+        targeting_config = load_config('config/targeting.yaml')
+        ever_jobs_searches_config = load_config('config/ever_jobs_searches.yaml')
         
         companies = companies_config.get('companies', [])
         logger.info(f"Loaded {len(companies)} companies")
@@ -75,15 +97,30 @@ def main():
         # Initialize components
         logger.info("Initializing components...")
         fetcher_manager = JobFetcherManager()
-        processor = JobProcessor(keywords_config)
+        processor = JobProcessor(keywords_config, targeting_config)
         reporter = JobReporter()
         github = GitHubIntegration()
         ai_assistant = AIAssistant()
+        ever_jobs = EverJobsIntegration()
+        email_notifier = EmailNotifier()
         
         # Fetch jobs
         logger.info("Fetching jobs from all sources...")
         raw_jobs = fetcher_manager.fetch_all_jobs(companies)
-        logger.info(f"Fetched {len(raw_jobs)} raw job postings")
+        logger.info(f"Fetched {len(raw_jobs)} raw job postings from ATS sources")
+
+        if ever_jobs.enabled:
+            logger.info("Fetching jobs from ever-jobs integration...")
+            ever_jobs_results = ever_jobs.fetch_all_jobs(ever_jobs_searches_config)
+            raw_jobs.extend(ever_jobs_results)
+            logger.info(
+                "Fetched %s additional raw job postings from ever-jobs",
+                len(ever_jobs_results),
+            )
+        else:
+            logger.info("Skipping ever-jobs integration (EVER_JOBS_API_URL not configured)")
+
+        logger.info(f"Fetched {len(raw_jobs)} total raw job postings")
         
         if not raw_jobs:
             logger.warning("No jobs found. Exiting.")
@@ -120,35 +157,47 @@ def main():
                 report_files['ai_insights'] = insights_file
         else:
             logger.info("AI analysis skipped (API key not configured)")
+
+        # Email Notification
+        logger.info("Sending email digest...")
+        email_success = email_notifier.send_daily_digest(processed_jobs, report_files)
+
+        if email_success:
+            logger.info("Successfully sent email digest")
+        else:
+            logger.info("Email digest skipped or failed")
         
         # GitHub Integration
-        logger.info("Committing and pushing reports to GitHub...")
-        files_to_commit = [
-            report_files.get('json'),
-            report_files.get('markdown')
-        ]
-        
-        if 'ai_insights' in report_files:
-            files_to_commit.append(report_files['ai_insights'])
-        
-        commit_success = github.commit_and_push_reports(files_to_commit)
-        
-        if commit_success:
-            logger.info("Successfully committed and pushed reports")
+        if github.enabled:
+            logger.info("Committing and pushing reports to GitHub...")
+            files_to_commit = [
+                report_files.get('json'),
+                report_files.get('markdown')
+            ]
+            
+            if 'ai_insights' in report_files:
+                files_to_commit.append(report_files['ai_insights'])
+            
+            commit_success = github.commit_and_push_reports(files_to_commit)
+            
+            if commit_success:
+                logger.info("Successfully committed and pushed reports")
+            else:
+                logger.warning("Failed to commit and push reports")
+            
+            # Create/Update GitHub Issue
+            logger.info("Creating/updating Daily Roles Digest issue...")
+            issue_success = github.create_daily_digest_issue(
+                processed_jobs, 
+                report_files.get('markdown', '')
+            )
+            
+            if issue_success:
+                logger.info("Successfully created/updated GitHub issue")
+            else:
+                logger.warning("Failed to create/update GitHub issue")
         else:
-            logger.warning("Failed to commit and push reports")
-        
-        # Create/Update GitHub Issue
-        logger.info("Creating/updating Daily Roles Digest issue...")
-        issue_success = github.create_daily_digest_issue(
-            processed_jobs, 
-            report_files.get('markdown', '')
-        )
-        
-        if issue_success:
-            logger.info("Successfully created/updated GitHub issue")
-        else:
-            logger.warning("Failed to create/update GitHub issue")
+            logger.info("Skipping GitHub integration (SKIP_GITHUB_INTEGRATION enabled)")
         
         # Summary
         logger.info("=" * 80)

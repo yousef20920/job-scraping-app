@@ -24,9 +24,9 @@ python -c "import yaml, requests; print('✓ Dependencies installed')"
 
 ## Configuration (2 minutes)
 
-### 1. Companies Configuration
+### 1. ATS Seed Companies Configuration
 
-Edit `config/companies.yaml` to add companies you want to track:
+Edit `config/companies.yaml` to add direct ATS boards you want to track:
 
 ```yaml
 companies:
@@ -40,7 +40,14 @@ companies:
 - **Lever**: Use API URL format: `https://api.lever.co/v0/postings/company-name`
 - **Ashby**: Use jobs page URL: `https://jobs.ashbyhq.com/company-name`
 
-### 2. Keywords Configuration
+### 2. Targeting Configuration
+
+Edit `config/targeting.yaml` to control:
+- target companies
+- internship/new-grad role filters
+- US/Canada-only location rules
+
+### 3. Keywords Configuration
 
 Edit `config/keywords.yaml` to customize job filtering:
 
@@ -58,6 +65,10 @@ keywords:
 ```bash
 python main.py
 ```
+
+To enable broader top-company coverage through `ever-jobs`, set `EVER_JOBS_API_URL` in `.env` and adjust `config/ever_jobs_searches.yaml`.
+For a safe local run that only writes `data/`, `report/`, and `logs/`, set `SKIP_GITHUB_INTEGRATION=true` in `.env`.
+To receive email digests, add Gmail SMTP settings to `.env` using an app password.
 
 **Expected output:**
 ```
@@ -97,14 +108,22 @@ cat logs/job_scraping_*.log
    - Name: `OPENAI_API_KEY`
    - Value: Your OpenAI API key from https://platform.openai.com/api-keys
 
-3. **Trigger workflow**
+3. **Configure email secrets** (optional for Gmail notifications)
+   - `SMTP_USERNAME`: your Gmail address
+   - `SMTP_PASSWORD`: your Gmail app password
+   - `EMAIL_TO`: recipient email address, or multiple comma-separated addresses
+   - `EMAIL_FROM`: usually the same Gmail address
+   - Optional: `SMTP_HOST=smtp.gmail.com`, `SMTP_PORT=465`, `ENABLE_EMAIL_NOTIFICATIONS=true`
+
+4. **Trigger workflow**
    - Go to Actions tab
    - Select "Daily Job Scraping"
    - Click "Run workflow"
 
-4. **View results**
+5. **View results**
    - Check the `data/` and `report/` directories in your repository
    - Check GitHub Issues for "Daily Roles Digest"
+   - Check your inbox for the daily summary email
 
 ## Quick Examples
 

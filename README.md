@@ -16,14 +16,15 @@ An advanced job scraping tool that automatically fetches, processes, and analyze
   - Location normalization
 
 - **AI Integration** (Optional):
-  - Job description analysis using ChatGPT
+  - Structured top-job fit analysis
+  - Required and nice-to-have skill extraction
   - Resume tailoring tips
-  - Cover letter outline generation
-  - Interview preparation guidance
+  - Red-flag detection for internship/new-grad roles
 
 - **Automated Reporting**:
   - JSON output (`data/jobs_agg.json`)
   - Markdown daily reports (`report/YYYY-MM-DD.md`)
+  - Optional email digest via Gmail SMTP
   - Automatic GitHub commits
   - Daily digest GitHub issues
 
@@ -84,6 +85,13 @@ Configure these secrets in your repository:
 
 - `GITHUB_TOKEN`: Automatically provided by GitHub Actions (no setup needed)
 - `OPENAI_API_KEY`: (Optional) Your OpenAI API key for AI features
+- `SMTP_USERNAME`: Your Gmail address
+- `SMTP_PASSWORD`: Your Gmail app password
+- `EMAIL_TO`: Comma-separated recipient list
+- `EMAIL_FROM`: Optional sender address override, usually the same Gmail address
+- `SMTP_HOST`: Optional, defaults to `smtp.gmail.com`
+- `SMTP_PORT`: Optional, defaults to `465`
+- `ENABLE_EMAIL_NOTIFICATIONS`: Optional, set to `true` to force-enable email delivery in Actions
 
 ## Usage
 
@@ -134,6 +142,14 @@ Automatically creates/updates a "Daily Roles Digest" issue with:
 - Summary of jobs found
 - Top 10 opportunities
 - Links to full reports
+
+### Email Digest
+
+When SMTP settings are configured, the app also sends a daily email summary with:
+- total jobs found
+- top companies
+- top 10 ranked roles
+- attached markdown and JSON reports
 
 ## Architecture
 

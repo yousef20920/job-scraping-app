@@ -23,7 +23,7 @@ class GreenhouseFetcher:
     def fetch_jobs(self, board_token: str, company_name: str) -> List[Dict[str, Any]]:
         """Fetch jobs from Greenhouse board"""
         try:
-            url = f"{self.BASE_URL}/{board_token}/jobs"
+            url = f"{self.BASE_URL}/{board_token}/jobs?content=true"
             response = self.session.get(url, timeout=30)
             response.raise_for_status()
             
@@ -67,8 +67,12 @@ class LeverFetcher:
     def fetch_jobs(self, board_url: str, company_name: str) -> List[Dict[str, Any]]:
         """Fetch jobs from Lever API"""
         try:
-            # Lever API typically uses format: https://api.lever.co/v0/postings/{company}
-            response = self.session.get(board_url, timeout=30)
+            api_url = board_url
+            if "mode=json" not in api_url:
+                separator = "&" if "?" in api_url else "?"
+                api_url = f"{api_url}{separator}mode=json"
+
+            response = self.session.get(api_url, timeout=30)
             response.raise_for_status()
             
             jobs = response.json()
@@ -77,14 +81,22 @@ class LeverFetcher:
             for job in jobs:
                 # Extract company from URL for ID generation
                 company_slug = board_url.split('/')[-1]
+                categories = job.get('categories', {}) or {}
+                location = categories.get('location', '')
+
+                if isinstance(location, list):
+                    location = ', '.join(
+                        loc.get('name', '') if isinstance(loc, dict) else str(loc)
+                        for loc in location
+                    )
                 
                 normalized_jobs.append({
                     'id': f"lever_{company_slug}_{job.get('id')}",
                     'title': job.get('text', ''),
                     'company': company_name,
-                    'location': ', '.join([loc.get('name', '') for loc in job.get('categories', {}).get('location', [])]) if job.get('categories') else '',
+                    'location': location,
                     'url': job.get('hostedUrl', ''),
-                    'description': job.get('description', ''),
+                    'description': job.get('descriptionPlain') or job.get('description', ''),
                     'date_posted': job.get('createdAt', ''),
                     'source': 'lever',
                     'raw_data': job
@@ -102,7 +114,9 @@ class LeverFetcher:
 
 
 class AshbyFetcher:
-    """Fetcher for Ashby GraphQL API"""
+    """Fetcher for Ashby posting API"""
+
+    BASE_URL = "https://api.ashbyhq.com/posting-api/job-board"
     
     def __init__(self):
         self.session = requests.Session()
@@ -112,14 +126,11 @@ class AshbyFetcher:
         })
     
     def fetch_jobs(self, board_url: str, company_name: str) -> List[Dict[str, Any]]:
-        """Fetch jobs from Ashby GraphQL API"""
+        """Fetch jobs from Ashby posting API"""
         try:
-            # Ashby uses a GraphQL endpoint
-            # Example: https://jobs.ashbyhq.com/anthropic
-            # We need to construct the API endpoint
-            api_url = f"{board_url}/api/jobs"
-            
-            # Try REST endpoint first (some Ashby boards have REST API)
+            company_slug = board_url.rstrip('/').split('/')[-1]
+            api_url = f"{self.BASE_URL}/{company_slug}"
+
             response = self.session.get(api_url, timeout=30)
             response.raise_for_status()
             
@@ -128,16 +139,13 @@ class AshbyFetcher:
             
             normalized_jobs = []
             for job in jobs:
-                # Extract company slug from URL
-                company_slug = board_url.split('/')[-1]
-                
                 normalized_jobs.append({
                     'id': f"ashby_{company_slug}_{job.get('id', job.get('jobId', ''))}",
                     'title': job.get('title', ''),
                     'company': company_name,
                     'location': job.get('location', job.get('locationName', '')),
                     'url': job.get('jobUrl', f"{board_url}/{job.get('id', '')}"),
-                    'description': job.get('description', job.get('descriptionHtml', '')),
+                    'description': job.get('descriptionPlain') or job.get('description', job.get('descriptionHtml', '')),
                     'date_posted': job.get('publishedDate', job.get('createdAt', '')),
                     'source': 'ashby',
                     'raw_data': job

@@ -1,0 +1,63 @@
+enabled: true
+
+default_site_types:
+  - "linkedin"
+  - "indeed"
+  - "glassdoor"
+  - "builtin"
+  - "wellfound"
+  - "google"
+  - "startupjobs"
+  - "joinrise"
+  - "google_careers"
+  - "microsoft"
+  - "nvidia"
+  - "openai"
+  - "stripe"
+  - "meta"
+  - "netflix"
+  - "apple"
+  - "uber"
+
+request_timeout: 60
+results_wanted: 35
+description_format: "plain"
+
+country_queries:
+  - country: "USA"
+    search_terms:
+      - "software engineer intern"
+      - "software engineering intern"
+      - "software developer intern"
+      - "backend engineer intern"
+      - "frontend engineer intern"
+      - "full stack engineer intern"
+      - "mobile engineer intern"
+      - "data engineer intern"
+      - "machine learning engineer intern"
+      - "applied scientist intern"
+      - "software engineer new grad"
+      - "new grad software engineer"
+      - "graduate software engineer"
+      - "entry level software engineer"
+      - "machine learning engineer new grad"
+      - "data engineer new grad"
+
+  - country: "CANADA"
+    search_terms:
+      - "software engineer intern"
+      - "software engineering intern"
+      - "software developer intern"
+      - "backend engineer intern"
+      - "frontend engineer intern"
+      - "full stack engineer intern"
+      - "mobile engineer intern"
+      - "data engineer intern"
+      - "machine learning engineer intern"
+      - "applied scientist intern"
+      - "software engineer new grad"
+      - "new grad software engineer"
+      - "graduate software engineer"
+      - "entry level software engineer"
+      - "machine learning engineer new grad"
+      - "data engineer new grad"

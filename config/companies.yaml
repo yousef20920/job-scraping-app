@@ -1,43 +1,155 @@
-# Companies configuration for job scraping
-# Format: company_name: {ats_type, board_url}
+# ATS-first company seeds for direct fetching.
+# Wider top-100 company coverage comes from the optional ever-jobs integration.
 
 companies:
   - name: "OpenAI"
-    ats: "greenhouse"
-    board_token: "openai"
-    
+    ats: "ashby"
+    board_url: "https://jobs.ashbyhq.com/openai"
+
   - name: "Anthropic"
     ats: "ashby"
     board_url: "https://jobs.ashbyhq.com/anthropic"
-    
+
   - name: "Stripe"
     ats: "greenhouse"
     board_token: "stripe"
-    
+
   - name: "Airbnb"
     ats: "greenhouse"
     board_token: "airbnb"
-    
-  - name: "Notion"
-    ats: "lever"
-    board_url: "https://api.lever.co/v0/postings/notion"
-    
+
   - name: "Figma"
-    ats: "greenhouse"
-    board_token: "figma"
-    
-  - name: "Scale AI"
     ats: "ashby"
-    board_url: "https://jobs.ashbyhq.com/scale"
-    
-  - name: "Discord"
-    ats: "greenhouse"
-    board_token: "discord"
-    
-  - name: "Databricks"
-    ats: "greenhouse"
-    board_token: "databricks"
-    
+    board_url: "https://jobs.ashbyhq.com/figma"
+
   - name: "Ramp"
     ats: "ashby"
     board_url: "https://jobs.ashbyhq.com/ramp"
+
+  - name: "Databricks"
+    ats: "greenhouse"
+    board_token: "databricks"
+
+  - name: "Discord"
+    ats: "greenhouse"
+    board_token: "discord"
+
+  - name: "Scale AI"
+    ats: "ashby"
+    board_url: "https://jobs.ashbyhq.com/scale"
+
+  - name: "Linear"
+    ats: "ashby"
+    board_url: "https://jobs.ashbyhq.com/linear"
+
+  - name: "Vercel"
+    ats: "ashby"
+    board_url: "https://jobs.ashbyhq.com/vercel"
+
+  - name: "Retool"
+    ats: "ashby"
+    board_url: "https://jobs.ashbyhq.com/retool"
+
+  - name: "Plaid"
+    ats: "ashby"
+    board_url: "https://jobs.ashbyhq.com/plaid"
+
+  - name: "Spotify"
+    ats: "greenhouse"
+    board_token: "spotify"
+
+  - name: "Cloudflare"
+    ats: "greenhouse"
+    board_token: "cloudflare"
+
+  - name: "Twilio"
+    ats: "greenhouse"
+    board_token: "twilio"
+
+  - name: "Datadog"
+    ats: "greenhouse"
+    board_token: "datadog"
+
+  - name: "MongoDB"
+    ats: "greenhouse"
+    board_token: "mongodb"
+
+  - name: "Snowflake"
+    ats: "greenhouse"
+    board_token: "snowflakeinc"
+
+  - name: "Roblox"
+    ats: "greenhouse"
+    board_token: "roblox"
+
+  - name: "Unity"
+    ats: "greenhouse"
+    board_token: "unity3d"
+
+  - name: "Shopify"
+    ats: "greenhouse"
+    board_token: "shopify"
+
+  - name: "Canva"
+    ats: "greenhouse"
+    board_token: "canva"
+
+  - name: "Pinterest"
+    ats: "greenhouse"
+    board_token: "pinterest"
+
+  - name: "Lyft"
+    ats: "greenhouse"
+    board_token: "lyft"
+
+  - name: "DoorDash"
+    ats: "greenhouse"
+    board_token: "doordash"
+
+  - name: "Instacart"
+    ats: "greenhouse"
+    board_token: "instacart"
+
+  - name: "Snap"
+    ats: "greenhouse"
+    board_token: "snap"
+
+  - name: "Rivian"
+    ats: "greenhouse"
+    board_token: "rivian"
+
+  - name: "Lucid Motors"
+    ats: "greenhouse"
+    board_token: "lucidmotors"
+
+  - name: "Block"
+    ats: "greenhouse"
+    board_token: "block"
+
+  - name: "Coinbase"
+    ats: "greenhouse"
+    board_token: "coinbase"
+
+  - name: "HubSpot"
+    ats: "greenhouse"
+    board_token: "hubspot"
+
+  - name: "Notion"
+    ats: "lever"
+    board_url: "https://api.lever.co/v0/postings/notion"
+
+  - name: "Atlassian"
+    ats: "lever"
+    board_url: "https://api.lever.co/v0/postings/atlassian"
+
+  - name: "Netflix"
+    ats: "lever"
+    board_url: "https://api.lever.co/v0/postings/netflix"
+
+  - name: "Palantir"
+    ats: "lever"
+    board_url: "https://api.lever.co/v0/postings/palantir"
+
+  - name: "Eventbrite"
+    ats: "lever"
+    board_url: "https://api.lever.co/v0/postings/eventbrite"

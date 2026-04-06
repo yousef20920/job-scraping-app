@@ -11,6 +11,14 @@ import requests
 logger = logging.getLogger(__name__)
 
 
+def _env_truthy(value: Optional[str]) -> bool:
+    """Return True when an environment flag is explicitly enabled."""
+    if value is None:
+        return False
+
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
 class GitHubIntegration:
     """Handles GitHub operations"""
     
@@ -18,6 +26,7 @@ class GitHubIntegration:
         self.repo = repo or os.getenv('GITHUB_REPOSITORY')
         self.token = token or os.getenv('GITHUB_TOKEN')
         self.api_base = "https://api.github.com"
+        self.enabled = not _env_truthy(os.getenv('SKIP_GITHUB_INTEGRATION'))
     
     def commit_and_push_reports(self, files: list, commit_message: Optional[str] = None) -> bool:
         """Commit and push report files to repository"""
