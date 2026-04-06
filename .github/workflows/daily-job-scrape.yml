@@ -2,9 +2,13 @@ name: Daily Job Scraping
 
 on:
   schedule:
-    # Run daily at 9 AM UTC (adjust as needed)
-    - cron: '0 9 * * *'
+    # Run every 30 minutes (UTC)
+    - cron: '*/30 * * * *'
   workflow_dispatch:  # Allow manual trigger
+
+concurrency:
+  group: job-scraping-workflow
+  cancel-in-progress: false
 
 permissions:
   contents: write
