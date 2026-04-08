@@ -174,12 +174,11 @@ def main():
         if github.enabled:
             logger.info("Committing and pushing reports to GitHub...")
             files_to_commit = [
-                report_files.get('json'),
-                report_files.get('markdown')
+                report_files.get("json"),
+                report_files.get("markdown"),
+                report_files.get("ai_insights"),
+                report_files.get("email_state"),
             ]
-            
-            if 'ai_insights' in report_files:
-                files_to_commit.append(report_files['ai_insights'])
             
             commit_success = github.commit_and_push_reports(files_to_commit)
             
