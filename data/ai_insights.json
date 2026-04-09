@@ -9,28 +9,30 @@
       "company": "Cloudflare",
       "location": "In-Office",
       "analysis": {
-        "fit_summary": "This internship at Cloudflare offers a unique opportunity for students passionate about data engineering to work on impactful projects that enhance data accessibility and insights. Candidates will gain hands-on experience in a fast-paced environment that values innovation and collaboration.",
+        "fit_summary": "This internship at Cloudflare offers a unique opportunity for students interested in Data Engineering to work on a centralized analytics platform that impacts a wide range of business initiatives. Candidates will gain hands-on experience in the full data lifecycle, contributing to real-world solutions that enhance data accessibility and insights.",
         "key_requirements": [
-          "Experience with data engineering concepts and practices",
+          "Experience with data engineering concepts and tools",
           "Familiarity with ETL processes and data modeling",
           "Knowledge of cloud-based data technologies",
           "Ability to analyze and profile data effectively",
           "Understanding of data security and authentication mechanisms"
         ],
         "nice_to_have": [
-          "Familiarity with modern enterprise data architectures",
-          "Experience with data visualization tools",
-          "Knowledge of programming languages such as Python or SQL"
+          "Experience with distributed data systems",
+          "Familiarity with data visualization tools",
+          "Knowledge of machine learning concepts",
+          "Experience with programming languages such as Python or SQL"
         ],
         "resume_tips": [
           "Highlight relevant coursework or projects in data engineering",
-          "Emphasize any experience with cloud technologies or data tools",
-          "Showcase problem-solving skills and ability to work in teams",
-          "Include any internships or relevant work experience in data roles"
+          "Emphasize any experience with data processing tools or frameworks",
+          "Showcase problem-solving skills and curiosity in data-related tasks",
+          "Include any internships or practical experiences related to data analysis",
+          "Mention familiarity with cloud platforms and data security practices"
         ],
         "red_flags": [
-          "Candidates not currently enrolled in a relevant degree program may be at a disadvantage",
-          "Lack of experience with data processing pipelines could be a concern"
+          "Preference for candidates currently enrolled in a relevant degree program",
+          "Limited experience in data engineering may be a disadvantage"
         ],
         "seniority_assessment": "internship",
         "role_focus": "data"
@@ -42,14 +44,14 @@
       "company": "Ramp",
       "location": "New York, NY (HQ)",
       "analysis": {
-        "fit_summary": "This internship at Ramp offers a unique opportunity for candidates to work on impactful projects within a fast-paced engineering environment. Candidates will gain hands-on experience in frontend development while contributing to solutions that help businesses manage their finances effectively.",
+        "fit_summary": "This internship at Ramp offers a unique opportunity for candidates to work on impactful projects that shape financial technology. Ideal for those passionate about frontend development, it emphasizes creativity and problem-solving in a fast-paced environment.",
         "key_requirements": [
           "Currently pursuing a B.S. in Computer Science or related field, graduating between 2026-2028",
           "Proficiency in JavaScript with a focus on web performance",
           "Experience with object-oriented programming languages",
-          "Track record of shipping high-quality products or a portfolio of side projects",
-          "Ability to translate business needs into engineering solutions",
-          "Desire to work in a fast-paced environment"
+          "Track record of shipping high-quality products or side projects",
+          "Ability to translate business ideas into engineering solutions",
+          "Alignment with Ramp's core values"
         ],
         "nice_to_have": [
           "Proficiency in React v16+",
@@ -57,15 +59,15 @@
           "Interest in financial technology"
         ],
         "resume_tips": [
-          "Highlight any relevant coursework or projects in JavaScript and React",
-          "Include any experience with shipping products or features",
-          "Showcase side projects that demonstrate problem-solving skills",
-          "Emphasize teamwork and collaboration experiences",
-          "Align your values with Ramp's mission and core values"
+          "Highlight relevant coursework or projects in JavaScript and frontend development",
+          "Showcase any experience with React or similar frameworks",
+          "Include examples of problem-solving and creativity in past projects",
+          "Emphasize teamwork and collaboration in cross-functional settings",
+          "Demonstrate alignment with Ramp's mission and values"
         ],
         "red_flags": [
-          "Must be currently enrolled in a degree program",
-          "Graduation date must be between 2026-2028"
+          "Candidates not pursuing a relevant degree may not be considered",
+          "Lack of experience in JavaScript or frontend technologies could be a disadvantage"
         ],
         "seniority_assessment": "internship",
         "role_focus": "frontend"
@@ -80,20 +82,20 @@
         "fit_summary": "This internship at Cloudflare offers a unique opportunity to work on projects that impact millions of users globally. Candidates who are proactive and curious about improving Internet infrastructure will thrive in this role.",
         "key_requirements": [
           "Passion for improving Internet performance and security",
-          "Familiarity with programming languages such as Typescript, Go, Rust, C/C++, or Python",
+          "Experience with programming languages such as Typescript, Go, Rust, C/C++, or Python",
           "Ability to work autonomously on projects",
           "Strong problem-solving skills and curiosity"
         ],
         "nice_to_have": [
-          "Experience with microservices architecture",
-          "Familiarity with modern UI libraries and patterns",
-          "Previous internship experience in software development"
+          "Familiarity with microservices architecture",
+          "Experience in web development or network engineering",
+          "Knowledge of AI tools and their applications"
         ],
         "resume_tips": [
-          "Highlight relevant programming skills and projects",
-          "Emphasize any experience with Internet technologies or security",
-          "Showcase problem-solving experiences or initiatives taken",
-          "Mention teamwork and collaboration in past projects"
+          "Highlight any relevant programming projects or coursework",
+          "Emphasize experience with collaborative coding or team projects",
+          "Showcase any internships or relevant work experience",
+          "Mention familiarity with modern development practices and tools"
         ],
         "red_flags": [
           "Lack of experience with required programming languages",
@@ -109,30 +111,27 @@
       "company": "Cloudflare",
       "location": "In-Office",
       "analysis": {
-        "fit_summary": "This internship at Cloudflare offers a unique opportunity for candidates to contribute to a mission-driven company that enhances Internet performance and security. Interns will gain hands-on experience in a fast-paced environment, working with cutting-edge technologies and making a tangible impact on millions of users.",
+        "fit_summary": "This internship at Cloudflare offers a unique opportunity for candidates passionate about improving the Internet. Interns will gain hands-on experience in a fast-paced environment, working on impactful projects that reach millions of users.",
         "key_requirements": [
-          "Passion for improving Internet technologies",
-          "Proficiency in at least one programming language (e.g., Python, Go, JavaScript)",
-          "Ability to work autonomously on projects",
-          "Curiosity and proactive problem-solving skills",
-          "Familiarity with modern software development practices"
+          "Currently pursuing a degree in Computer Science or related field",
+          "Familiarity with programming languages such as Typescript, Go, Rust, C/C++, or Python",
+          "Strong problem-solving skills and a proactive attitude",
+          "Ability to work independently and deliver projects within a 12-16 week timeframe"
         ],
         "nice_to_have": [
           "Experience with microservices architecture",
-          "Knowledge of web performance optimization techniques",
-          "Familiarity with AI and machine learning concepts",
-          "Contributions to open-source projects"
+          "Knowledge of web performance optimization",
+          "Familiarity with AI and machine learning concepts"
         ],
         "resume_tips": [
-          "Highlight relevant programming skills and projects",
-          "Emphasize any experience with web technologies or Internet applications",
-          "Showcase problem-solving experiences or initiatives taken in past roles",
-          "Include any collaborative projects or teamwork experiences",
-          "Mention any relevant coursework or certifications in software engineering"
+          "Highlight relevant coursework or projects in software development",
+          "Emphasize any experience with the listed programming languages",
+          "Showcase problem-solving experiences or initiatives taken in previous roles",
+          "Include any contributions to open-source projects or personal coding projects"
         ],
         "red_flags": [
-          "Lack of programming experience or projects",
-          "No demonstrated interest in Internet technologies or software development"
+          "Candidates not pursuing a relevant degree may be at a disadvantage",
+          "Lack of experience with the specified programming languages could be a concern"
         ],
         "seniority_assessment": "internship",
         "role_focus": "full-stack"
@@ -144,26 +143,29 @@
       "company": "Ramp",
       "location": "New York, NY (HQ)",
       "analysis": {
-        "fit_summary": "This internship at Ramp offers a unique opportunity for candidates to contribute to a rapidly scaling mobile app in a high-impact environment. Ideal for those passionate about Android development, it emphasizes ownership and cross-functional collaboration, making it a great fit for aspiring engineers eager to make a difference.",
+        "fit_summary": "This internship at Ramp offers a unique opportunity for candidates to contribute to a rapidly scaling mobile app in a high-impact environment. Ideal for those eager to take ownership of projects and grow their technical skills in Android development.",
         "key_requirements": [
           "Currently pursuing a B.S. in Computer Science or related field, graduating between 2026-2028",
           "Proficiency in Kotlin for Android development",
           "Knowledge of Android UI components and Android SDK",
-          "Experience contributing to a mobile app or features used by a large audience",
-          "Strong understanding of mobile design patterns and best practices",
-          "Desire to work in a fast-paced environment and learn new technologies"
+          "Experience with mobile app development and shipping features to users",
+          "Strong understanding of mobile design patterns and best practices"
         ],
-        "nice_to_have": [],
+        "nice_to_have": [
+          "Experience with security best practices for mobile apps",
+          "Portfolio of side projects demonstrating technical skills",
+          "Desire to work in a fast-paced environment"
+        ],
         "resume_tips": [
-          "Highlight any mobile app development experience, especially with Kotlin",
+          "Highlight any mobile app development experience, especially in Kotlin",
           "Showcase projects that demonstrate ownership and impact",
           "Include any relevant coursework or technical skills related to Android development",
-          "Emphasize adaptability and eagerness to learn new technologies",
-          "Mention any experience with cross-functional teams or collaborative projects"
+          "Mention any experience working in cross-functional teams",
+          "Emphasize adaptability and eagerness to learn new technologies"
         ],
         "red_flags": [
-          "Candidates not pursuing a degree in Computer Science or related field",
-          "Lack of experience with Kotlin or Android development"
+          "Candidates not pursuing a relevant degree may not be considered",
+          "Lack of experience in Kotlin or Android development could be a disadvantage"
         ],
         "seniority_assessment": "internship",
         "role_focus": "mobile"
