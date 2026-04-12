@@ -1,243 +1,615 @@
 target_companies:
-  - "Google"
-  - "Microsoft"
-  - "Apple"
-  - "Amazon"
-  - "Meta"
-  - "NVIDIA"
-  - "Oracle"
-  - "Salesforce"
-  - "Adobe"
-  - "Cisco"
-  - "IBM"
-  - "Intel"
-  - "AMD"
-  - "Qualcomm"
-  - "Broadcom"
-  - "ServiceNow"
-  - "Shopify"
-  - "Uber"
-  - "Airbnb"
-  - "Stripe"
-  - "OpenAI"
-  - "Anthropic"
-  - "Databricks"
-  - "Snowflake"
-  - "Cloudflare"
-  - "Datadog"
-  - "MongoDB"
-  - "Coinbase"
-  - "Block"
-  - "Figma"
-  - "Notion"
-  - "Discord"
-  - "Ramp"
-  - "Vercel"
-  - "Plaid"
-  - "Robinhood"
-  - "Dropbox"
-  - "Zoom"
-  - "Atlassian"
-  - "Twilio"
-  - "HubSpot"
-  - "LinkedIn"
-  - "Netflix"
-  - "DoorDash"
-  - "Instacart"
-  - "Pinterest"
-  - "Reddit"
-  - "Snap"
-  - "Lyft"
-  - "Roblox"
-  - "Unity"
-  - "GitHub"
-  - "GitLab"
-  - "Okta"
-  - "Confluent"
-  - "Elastic"
-  - "Palantir"
-  - "Samsara"
-  - "Asana"
-  - "Box"
-  - "Workday"
-  - "Intuit"
-  - "Autodesk"
-  - "DocuSign"
-  - "eBay"
-  - "Expedia Group"
-  - "PayPal"
-  - "SoFi"
-  - "Toast"
-  - "Chime"
-  - "Brex"
-  - "Rippling"
-  - "Gusto"
-  - "Deel"
-  - "Canva"
-  - "Cohere"
-  - "1Password"
-  - "Wealthsimple"
-  - "Lightspeed"
-  - "Hootsuite"
-  - "Clio"
-  - "Ada"
-  - "Benchling"
-  - "Sentry"
-  - "Linear"
-  - "Cursor"
-  - "Retool"
-  - "Miro"
-  - "Airtable"
-  - "Grammarly"
-  - "Anduril"
-  - "SpaceX"
-  - "Tesla"
-  - "Rivian"
-  - "Lucid Motors"
-  - "Spotify"
-  - "Twitch"
-  - "Zillow"
-  - "Wayfair"
-  - "CrowdStrike"
-
+- Google
+- Microsoft
+- Apple
+- Amazon
+- Meta
+- NVIDIA
+- Oracle
+- Salesforce
+- Adobe
+- Cisco
+- IBM
+- Intel
+- AMD
+- Qualcomm
+- Broadcom
+- ServiceNow
+- Shopify
+- Uber
+- Airbnb
+- Stripe
+- OpenAI
+- Anthropic
+- Databricks
+- Snowflake
+- Cloudflare
+- Datadog
+- MongoDB
+- Coinbase
+- Block
+- Figma
+- Notion
+- Discord
+- Ramp
+- Vercel
+- Plaid
+- Robinhood
+- Dropbox
+- Zoom
+- Atlassian
+- Twilio
+- HubSpot
+- LinkedIn
+- Netflix
+- DoorDash
+- Instacart
+- Pinterest
+- Reddit
+- Snap
+- Lyft
+- Roblox
+- Unity
+- GitHub
+- GitLab
+- Okta
+- Confluent
+- Elastic
+- Palantir
+- Samsara
+- Asana
+- Box
+- Workday
+- Intuit
+- Autodesk
+- DocuSign
+- eBay
+- Expedia Group
+- PayPal
+- SoFi
+- Toast
+- Chime
+- Brex
+- Rippling
+- Gusto
+- Deel
+- Canva
+- Cohere
+- 1Password
+- Wealthsimple
+- Lightspeed
+- Hootsuite
+- Clio
+- Ada
+- Benchling
+- Sentry
+- Linear
+- Cursor
+- Retool
+- Miro
+- Airtable
+- Grammarly
+- Anduril
+- SpaceX
+- Tesla
+- Rivian
+- Lucid Motors
+- Spotify
+- Twitch
+- Zillow
+- Wayfair
+- CrowdStrike
+- 23andMe
+- 6sense
+- A9
+- Academia
+- Achievers
+- Acorns
+- Acquia
+- Addepar
+- Affirm
+- Ahrefs
+- Algebraix
+- Algolia
+- AltSchool
+- Amino
+- Amobee
+- Ancestry
+- ANDigital
+- Angellist
+- AppFolio
+- AppNexus
+- Apptio
+- Aptible
+- Aspiration Software
+- Atomic
+- August
+- AutomatedInsights
+- Automattic
+- BambooHR
+- Bending Spoons
+- Betterment
+- Bill.com
+- Bitly
+- Bitnami
+- BitTiger
+- BitTorrent
+- Blend Labs
+- Bloomz
+- Blue Origin
+- Bonuz
+- Booking.com
+- Brigade
+- BuildASign
+- BuildZoom
+- Bungie
+- Busbud
+- BuzzFeed
+- Canary
+- Capsule
+- Captain401
+- Carbon
+- Carousell
+- Casetext
+- Casper
+- Catchpoint
+- Centro
+- change.org
+- Chaordic
+- Checkr
+- Cheesecake Labs
+- Chewy
+- Chexology
+- CircleUp
+- Citrix
+- Classy
+- ClearSlide
+- Clever
+- Clippings
+- Cloudera
+- Clue
+- Clustrix
+- Codecademy
+- Codefights
+- Codeship
+- Collective Health
+- Color
+- Compass
+- CoreOS
+- CornerStone OnDemand
+- Couchbase
+- Couchsurfing
+- Counsyl
+- Coursera
+- CreditKarma
+- CrowdRise
+- CrowdStar
+- Cruise
+- CrunchBase
+- Cumulus Networks
+- Curse
+- Curalate
+- DigitalOcean
+- Disqus
+- DJI
+- Docker
+- DollarShaveClub
+- Dot & Bo
+- DOT Digital Group
+- DraftKings
+- DroneDeploy
+- Duolingo
+- EagleView
+- Edmodo
+- Edmunds
+- EdX
+- eHarmony
+- Elasticsearch
+- Element.ai
+- Elemental Technologies
+- EnergySavvy
+- Entelo
+- Epic
+- Etsy
+- Eventbrite
+- Evernote
+- Facebook
+- Farfetch
+- Faraday Future
+- Fastly
+- Fictiv
+- Fitbit
+- FiveStars
+- Flatiron
+- Flipboard
+- Flipkart
+- Flipp
+- Forex Factory
+- Foursquare
+- frame.ai
+- Funding Circle
+- General Assembly
+- GetYourGuide
+- Gigster
+- GoDaddy
+- Gree
+- Greenhouse
+- GrubHub
+- Guidewire
+- GumGum
+- HackerRank
+- Hailo
+- Haiku Deck
+- Hart, Inc.
+- Helix
+- Helpling
+- Hipmunk
+- HomeAway
+- Hulu
+- iCIMS
+- Idealab
+- IFTTT
+- IgnitionOne
+- Illumio
+- Imgur
+- Indeed
+- Indiegogo
+- Infinera
+- InfluxDB
+- InMobi
+- Instructure
+- Integral Ad Science
+- Intellisis
+- Intentional
+- Interactive Intelligence
+- Intercom
+- Intrepid Pursuits
+- Invoice2go
+- IXL Learning
+- Jawbone
+- Jet
+- JetBrains
+- Jiminny
+- Jive
+- Jobvite
+- JustWatch
+- Kayak
+- KeepSafe
+- Khan Academy
+- Kickstarter
+- Kik
+- Kinnek
+- Klarna
+- Knowles
+- Laserfiche
+- LendUp
+- Lever
+- Lifesize
+- Liftoff
+- Linode
+- Lithium
+- Livescribe
+- Logitech
+- Looker
+- Lucid Software
+- Luxe
+- Machine Zone
+- Magic
+- MailChimp
+- Marketo
+- Mark 43
+- Mattermark
+- Matterport
+- Medallia
+- Medium
+- Meetup
+- Mesosphere
+- Meteor
+- Metromile
+- Mind Candy
+- MindTouch
+- MixBit
+- Mixmax
+- Mixpanel
+- MLab
+- Moz
+- Mozilla
+- MuleSoft
+- Munchery
+- Narrative Science
+- Nervana Systems
+- New Relic
+- Nexmo
+- Nextdoor
+- Niantic
+- Nulogy
+- Nutanix
+- Oblong
+- Onefootball
+- OneLogin
+- Open Whisper Systems
+- Opendoor
+- OpenTable
+- OpenX
+- Operator
+- Optimizely
+- Oscar Health
+- Palo Alto Networks
+- Pandora
+- Paytm Labs
+- Pivotal
+- PlushCare
+- Postmates
+- Prezi
+- Priceline
+- Prism
+- Pristine
+- Procore Technologies
+- Prominic
+- Pure Storage
+- Qlik
+- Qualtrics
+- Quantcast
+- Qubole
+- Quip
+- Quizlet
+- Quora
+- Rackspace
+- Radius
+- ReadMe
+- Redbooth
+- Redbull
+- Redfin
+- RedMart
+- Redis-Labs
+- Red Nova Labs
+- Remitly
+- ResearchGate
+- Resultados Digitais
+- RetailNext
+- Riot Games
+- RiskIQ
+- Roadtrippers
+- Roku
+- Rover.com
+- rubrik
+- SADA Systems
+- ScoreBig
+- Scribd
+- Seamless
+- SeatGeek
+- Segment
+- SendGrid
+- Sensus
+- Shazam
+- SheerID
+- ShoreTel
+- Shutterfly
+- Sift Science
+- Signifyd
+- SimplyCredit
+- SKHMS
+- Skillshare
+- Slack
+- Slice
+- Smarking
+- Smartsheet
+- SmartThings
+- Smule
+- Snapchat
+- SocialBase
+- Socotra
+- Source Intelligence
+- SoundCloud
+- Sprout Social
+- Square
+- Squarespace
+- SSi Micro
+- StackPath
+- SteelHouse
+- Study.com
+- Sunlink
+- SurveyMonkey
+- Symphony
+- Tableau
+- Taco Bell, Corporate
+- Takt
+- Tango
+- TED
+- Teespring
+- Telenav
+- TextNow
+- The Artist Union
+- The Climate Corporation
+- The Internet Archive
+- The League
+- ThoughtSpot
+- ThoughtWorks
+- Thumbtack
+- Tile
+- Tillster
+- Tinder
+- Tint
+- TiVo
+- Top Hat
+- Trail
+- Travis CI
+- TripAdvisor
+- Trustpilot
+- Trustwave
+- Tumblr
+- Twitter
+- Two Roads
+- Two Sigma
+- Udacity
+- Upwork
+- Urban Massage
+- Valve
+- Veeva
+- Venmo
+- Vertafore
+- VEVO
+- VHX
+- Viget
+- Vimeo
+- Vox Media
+- Vultr
+- Wattpad
+- WayUp
+- Wealthfront
+- Weebly
+- Whitepages
+- Wikimedia Foundation
+- Wish
+- Wolt
+- Work Market
+- Workiva
+- Xero
+- Yelp
+- Yext
+- YouNow
+- Zalando
+- Zappos
+- Zendesk
+- Zenefits
+- ZenMate
+- ZocDoc
+- Zoosk
+- Zscaler
+- Zuora
+- Zynga
 company_aliases:
-  "Google":
-    - "Alphabet"
-    - "Alphabet Inc"
-    - "Google LLC"
-    - "Google DeepMind"
-  "Meta":
-    - "Meta Platforms"
-    - "Facebook"
-  "Amazon":
-    - "Amazon Web Services"
-    - "AWS"
-  "NVIDIA":
-    - "Nvidia"
-  "Block":
-    - "Square"
-    - "Block Inc"
-  "PayPal":
-    - "PayPal Holdings"
-  "Expedia Group":
-    - "Expedia"
-  "CrowdStrike":
-    - "CrowdStrike Holdings"
-  "Lucid Motors":
-    - "Lucid"
-  "Shopify":
-    - "Shopify Inc"
-  "OpenAI":
-    - "OpenAI, LLC"
-  "1Password":
-    - "AgileBits"
-
+  Google:
+  - Alphabet
+  - Alphabet Inc
+  - Google LLC
+  - Google DeepMind
+  Meta:
+  - Meta Platforms
+  - Facebook
+  Amazon:
+  - Amazon Web Services
+  - AWS
+  NVIDIA:
+  - Nvidia
+  Block:
+  - Square
+  - Block Inc
+  PayPal:
+  - PayPal Holdings
+  Expedia Group:
+  - Expedia
+  CrowdStrike:
+  - CrowdStrike Holdings
+  Lucid Motors:
+  - Lucid
+  Shopify:
+  - Shopify Inc
+  OpenAI:
+  - OpenAI, LLC
+  1Password:
+  - AgileBits
 role_filters:
   tech_role_keywords:
-    - "software engineer"
-    - "software developer"
-    - "software engineering"
-    - "developer"
-    - "backend engineer"
-    - "backend developer"
-    - "frontend engineer"
-    - "front end engineer"
-    - "frontend developer"
-    - "full stack"
-    - "full-stack"
-    - "platform engineer"
-    - "mobile engineer"
-    - "ios engineer"
-    - "android engineer"
-    - "machine learning"
-    - "ml engineer"
-    - "ai engineer"
-    - "data engineer"
-    - "security engineer"
-    - "site reliability"
-    - "sre"
-    - "devops engineer"
-    - "cloud engineer"
-    - "qa engineer"
-    - "automation engineer"
-    - "test engineer"
-    - "firmware engineer"
-    - "embedded engineer"
-    - "systems engineer"
-    - "product security"
-
+  - software engineer
+  - software developer
+  - software engineering
+  - developer
+  - backend engineer
+  - backend developer
+  - frontend engineer
+  - front end engineer
+  - frontend developer
+  - full stack
+  - full-stack
+  - platform engineer
+  - mobile engineer
+  - ios engineer
+  - android engineer
+  - machine learning
+  - ml engineer
+  - ai engineer
+  - data engineer
+  - security engineer
+  - site reliability
+  - sre
+  - devops engineer
+  - cloud engineer
+  - qa engineer
+  - automation engineer
+  - test engineer
+  - firmware engineer
+  - embedded engineer
+  - systems engineer
+  - product security
   internship_keywords:
-    - "intern"
-    - "internship"
-    - "co-op"
-    - "co op"
-    - "coop"
-    - "summer intern"
-    - "fall intern"
-    - "winter intern"
-    - "student"
-
+  - intern
+  - internship
+  - co-op
+  - co op
+  - coop
+  - summer intern
+  - fall intern
+  - winter intern
+  - student
   new_grad_keywords:
-    - "new grad"
-    - "new graduate"
-    - "graduate"
-    - "university graduate"
-    - "college graduate"
-    - "campus"
-    - "entry level"
-    - "entry-level"
-    - "early career"
-    - "junior"
-    - "associate"
-    - "university hire"
-    - "student hire"
-
+  - new grad
+  - new graduate
+  - graduate
+  - university graduate
+  - college graduate
+  - campus
+  - entry level
+  - entry-level
+  - early career
+  - junior
+  - associate
+  - university hire
+  - student hire
   exclude_title_keywords:
-    - "senior"
-    - "staff"
-    - "principal"
-    - "phd"
-    - "ph.d"
-    - "doctoral"
-    - "doctorate"
-    - "postdoctoral"
-    - "post-doctoral"
-    - "research"
-    - "researcher"
-    - "scientist"
-    - "lead"
-    - "manager"
-    - "director"
-    - "head"
-    - "vice president"
-    - "vp "
-    - "vp,"
-    - "distinguished"
-    - "architect"
-    - "fellow"
-    - "specialist"
-    - "consultant"
-    - "sr "
-    - "sr."
-    - "ii"
-    - "iii"
-    - "iv"
-
+  - senior
+  - staff
+  - principal
+  - phd
+  - ph.d
+  - doctoral
+  - doctorate
+  - postdoctoral
+  - post-doctoral
+  - research
+  - researcher
+  - scientist
+  - lead
+  - manager
+  - director
+  - head
+  - vice president
+  - 'vp '
+  - vp,
+  - distinguished
+  - architect
+  - fellow
+  - specialist
+  - consultant
+  - 'sr '
+  - sr.
+  - ii
+  - iii
+  - iv
   exclude_text_keywords:
-    - "currently pursuing a phd"
-    - "pursuing a phd"
-    - "enrolled in a phd"
-    - "phd program"
-    - "ph.d program"
-    - "doctoral student"
-    - "doctorate"
-    - "postdoctoral"
-    - "research internship"
-    - "research intern"
-    - "research position"
-
+  - currently pursuing a phd
+  - pursuing a phd
+  - enrolled in a phd
+  - phd program
+  - ph.d program
+  - doctoral student
+  - doctorate
+  - postdoctoral
+  - research internship
+  - research intern
+  - research position
 location_filters:
   allowed_countries:
-    - "United States"
-    - "Canada"
+  - United States
+  - Canada
   allow_remote_without_region: true
