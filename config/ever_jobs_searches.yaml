@@ -1,4 +1,5 @@
-enabled: true
+# Disabled by default. Turn on only alongside ENABLE_EVER_JOBS=true.
+enabled: false
 
 default_site_types:
   - "linkedin"

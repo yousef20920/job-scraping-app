@@ -75,6 +75,14 @@ def load_config(config_file: str):
         raise
 
 
+def env_truthy(value: str | None, default: bool = False) -> bool:
+    """Interpret common truthy environment variable values."""
+    if value is None:
+        return default
+
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
 def main():
     """Main execution flow"""
     load_env_file()
@@ -100,8 +108,10 @@ def main():
         processor = JobProcessor(keywords_config, targeting_config)
         reporter = JobReporter()
         github = GitHubIntegration()
-        ai_assistant = AIAssistant()
-        ever_jobs = EverJobsIntegration()
+        ai_enabled = env_truthy(os.getenv("ENABLE_AI_ANALYSIS"), default=False)
+        ever_jobs_enabled = env_truthy(os.getenv("ENABLE_EVER_JOBS"), default=False)
+        ai_assistant = AIAssistant() if ai_enabled else None
+        ever_jobs = EverJobsIntegration(enabled=ever_jobs_enabled)
         email_notifier = EmailNotifier()
         
         # Fetch jobs
@@ -118,7 +128,7 @@ def main():
                 len(ever_jobs_results),
             )
         else:
-            logger.info("Skipping ever-jobs integration (EVER_JOBS_API_URL not configured)")
+            logger.info("Skipping ever-jobs integration (disabled by default)")
 
         logger.info(f"Fetched {len(raw_jobs)} total raw job postings")
         
@@ -140,23 +150,26 @@ def main():
         report_files = reporter.generate_reports(processed_jobs)
         logger.info(f"Generated reports: {list(report_files.values())}")
         
-        # AI Analysis (optional - only if API key is configured)
-        logger.info("Running AI analysis on top jobs...")
-        ai_results = ai_assistant.analyze_top_jobs(processed_jobs, top_n=5)
-        
-        if ai_results.get('enabled'):
-            logger.info(f"AI analysis completed for {ai_results.get('total_analyzed')} jobs")
-            
-            # Save AI insights to file
-            if ai_results.get('analyses'):
-                insights_file = os.path.join('data', 'ai_insights.json')
-                import json
-                with open(insights_file, 'w', encoding='utf-8') as f:
-                    json.dump(ai_results, f, indent=2)
-                logger.info(f"Saved AI insights to {insights_file}")
-                report_files['ai_insights'] = insights_file
+        # AI Analysis (optional and disabled by default)
+        if ai_enabled and ai_assistant:
+            logger.info("Running AI analysis on top jobs...")
+            ai_results = ai_assistant.analyze_top_jobs(processed_jobs, top_n=5)
+
+            if ai_results.get('enabled'):
+                logger.info(f"AI analysis completed for {ai_results.get('total_analyzed')} jobs")
+
+                # Save AI insights to file
+                if ai_results.get('analyses'):
+                    insights_file = os.path.join('data', 'ai_insights.json')
+                    import json
+                    with open(insights_file, 'w', encoding='utf-8') as f:
+                        json.dump(ai_results, f, indent=2)
+                    logger.info(f"Saved AI insights to {insights_file}")
+                    report_files['ai_insights'] = insights_file
+            else:
+                logger.info("AI analysis skipped")
         else:
-            logger.info("AI analysis skipped (API key not configured)")
+            logger.info("AI analysis disabled")
 
         # Email Notification
         logger.info("Sending email digest...")
