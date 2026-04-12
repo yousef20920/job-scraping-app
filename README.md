@@ -1,6 +1,6 @@
 # Job Scraping Application
 
-An advanced job scraping tool that automatically fetches, processes, and analyzes job postings from multiple ATS platforms (Greenhouse, Lever, Ashby).
+An advanced job scraping tool that automatically fetches and processes recent job postings from multiple ATS platforms (Greenhouse, Lever, Ashby).
 
 ## Features
 
@@ -15,11 +15,10 @@ An advanced job scraping tool that automatically fetches, processes, and analyze
   - Ranking system based on configurable keywords and skills
   - Location normalization
 
-- **AI Integration** (Optional):
-  - Structured top-job fit analysis
-  - Required and nice-to-have skill extraction
-  - Resume tailoring tips
-  - Red-flag detection for internship/new-grad roles
+- **Freshness Controls**:
+  - Keeps only jobs posted within the last 24 hours by default
+  - Drops jobs with missing or unparseable posting dates
+  - Optional `ever-jobs` integration is disabled by default
 
 - **Automated Reporting**:
   - JSON output (`data/jobs_agg.json`)
@@ -39,7 +38,7 @@ An advanced job scraping tool that automatically fetches, processes, and analyze
 
 - Python 3.11+
 - GitHub repository with Actions enabled
-- (Optional) OpenAI API key for AI features
+- (Optional) OpenAI API key if you explicitly enable AI analysis
 
 ### 2. Installation
 
@@ -84,7 +83,11 @@ preferred_skills:
 Configure these secrets in your repository:
 
 - `GITHUB_TOKEN`: Automatically provided by GitHub Actions (no setup needed)
-- `OPENAI_API_KEY`: (Optional) Your OpenAI API key for AI features
+- `ENABLE_AI_ANALYSIS`: Optional, defaults to `false`
+- `OPENAI_API_KEY`: Optional, only used when AI analysis is enabled
+- `ENABLE_EVER_JOBS`: Optional, defaults to `false`
+- `EVER_JOBS_API_URL`: Optional, only used when `ENABLE_EVER_JOBS=true`
+- `JOB_POSTED_WITHIN_HOURS`: Optional, defaults to `24`
 - `SMTP_USERNAME`: Your Gmail address
 - `SMTP_PASSWORD`: Your Gmail app password
 - `EMAIL_TO`: Comma-separated recipient list
@@ -149,7 +152,7 @@ When SMTP settings are configured, the app also sends a daily email summary with
 - total jobs found
 - top companies
 - top 10 ranked roles
-- attached markdown and JSON reports
+- inline links only, with no attachments
 
 ## Architecture
 

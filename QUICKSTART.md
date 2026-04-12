@@ -66,9 +66,10 @@ keywords:
 python main.py
 ```
 
-To enable broader top-company coverage through `ever-jobs`, set `EVER_JOBS_API_URL` in `.env` and adjust `config/ever_jobs_searches.yaml`.
+The app keeps only jobs posted within the last 24 hours by default. Override with `JOB_POSTED_WITHIN_HOURS` in `.env` if needed.
+To enable broader top-company coverage through `ever-jobs`, set `ENABLE_EVER_JOBS=true`, set `EVER_JOBS_API_URL` in `.env`, and adjust `config/ever_jobs_searches.yaml`.
 For a safe local run that only writes `data/`, `report/`, and `logs/`, set `SKIP_GITHUB_INTEGRATION=true` in `.env`.
-To receive email digests, add Gmail SMTP settings to `.env` using an app password.
+To receive email digests, add Gmail SMTP settings to `.env` using an app password. The digest is inline only and does not include attachments.
 
 **Expected output:**
 ```

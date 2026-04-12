@@ -13,10 +13,15 @@ logger = logging.getLogger(__name__)
 class EverJobsIntegration:
     """Fetches jobs from a running ever-jobs API and normalizes them."""
 
-    def __init__(self, api_url: str | None = None, api_key: str | None = None):
+    def __init__(
+        self,
+        api_url: str | None = None,
+        api_key: str | None = None,
+        enabled: bool = True,
+    ):
         self.api_url = (api_url or os.getenv("EVER_JOBS_API_URL", "")).rstrip("/")
         self.api_key = api_key or os.getenv("EVER_JOBS_API_KEY")
-        self.enabled = bool(self.api_url)
+        self.enabled = enabled and bool(self.api_url)
         self.session = requests.Session()
         self.session.headers.update({
             "Content-Type": "application/json",

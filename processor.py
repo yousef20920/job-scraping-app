@@ -4,7 +4,8 @@ Job data processing module - filtering, normalization, deduplication, and rankin
 import hashlib
 import logging
 import re
-from datetime import datetime
+import os
+from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List
 
 logger = logging.getLogger(__name__)
@@ -84,6 +85,7 @@ class JobProcessor:
         self.allow_remote_without_region = self.targeting_config.get(
             "location_filters", {}
         ).get("allow_remote_without_region", True)
+        self.max_job_age_hours = int(os.getenv("JOB_POSTED_WITHIN_HOURS", "24"))
 
         self.normalized_target_companies = self._build_target_company_set()
 
@@ -212,6 +214,14 @@ class JobProcessor:
             logger.debug("Excluding job '%s' - location outside US/Canada filter", title)
             return True
 
+        if not self.is_recent_job(job):
+            logger.debug(
+                "Excluding job '%s' - posting is older than %s hours or missing a parseable date",
+                title,
+                self.max_job_age_hours,
+            )
+            return True
+
         text_to_check = f"{job.get('title', '')} {job.get('description', '')}".lower()
         for exclude_kw in self.exclude_text_keywords:
             if exclude_kw.lower() in text_to_check:
@@ -269,6 +279,57 @@ class JobProcessor:
 
         score += 1.0
         return score
+
+    def parse_job_datetime(self, raw_value: Any) -> datetime | None:
+        """Parse timestamps from ATS APIs and normalize to UTC."""
+        if raw_value in (None, ""):
+            return None
+
+        if isinstance(raw_value, datetime):
+            if raw_value.tzinfo is None:
+                return raw_value.replace(tzinfo=timezone.utc)
+            return raw_value.astimezone(timezone.utc)
+
+        if isinstance(raw_value, (int, float)):
+            return self._from_unix_timestamp(float(raw_value))
+
+        if not isinstance(raw_value, str):
+            return None
+
+        value = raw_value.strip()
+        if not value:
+            return None
+
+        if value.isdigit():
+            return self._from_unix_timestamp(float(value))
+
+        normalized = value.replace("Z", "+00:00")
+        try:
+            parsed = datetime.fromisoformat(normalized)
+        except ValueError:
+            return None
+
+        if parsed.tzinfo is None:
+            return parsed.replace(tzinfo=timezone.utc)
+        return parsed.astimezone(timezone.utc)
+
+    def _from_unix_timestamp(self, raw_value: float) -> datetime | None:
+        try:
+            # Lever commonly returns milliseconds since epoch.
+            timestamp = raw_value / 1000 if raw_value > 1_000_000_000_000 else raw_value
+            return datetime.fromtimestamp(timestamp, tz=timezone.utc)
+        except (OverflowError, OSError, ValueError):
+            return None
+
+    def is_recent_job(self, job: Dict[str, Any]) -> bool:
+        """Allow only jobs posted within the configured recency window."""
+        posted_at = self.parse_job_datetime(job.get("date_posted"))
+        if not posted_at:
+            return False
+
+        job["date_posted"] = posted_at.isoformat()
+        cutoff = datetime.now(timezone.utc) - timedelta(hours=self.max_job_age_hours)
+        return posted_at >= cutoff
 
     def generate_job_hash(self, job: Dict[str, Any]) -> str:
         """Generate a hash for deduplication based on company, title, and location."""

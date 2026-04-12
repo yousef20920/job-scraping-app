@@ -4,7 +4,6 @@ Email notification integration for daily job digests.
 import hashlib
 import json
 import logging
-import mimetypes
 import os
 import smtplib
 import ssl
@@ -56,7 +55,7 @@ class EmailNotifier:
     def send_daily_digest(
         self,
         jobs: List[Dict[str, Any]],
-        report_files: Dict[str, str],
+        _report_files: Dict[str, str],
     ) -> bool:
         """Send a daily digest email for jobs that have not been emailed before."""
         if not self.enabled:
@@ -78,30 +77,6 @@ class EmailNotifier:
             message["From"] = self.email_from
             message["To"] = ", ".join(self.email_to)
             message.set_content(self._build_plain_text_body(new_jobs, len(jobs)))
-
-            self._attach_text(
-                message,
-                self._build_markdown_attachment(new_jobs, len(jobs)),
-                "new_jobs.md",
-                "text",
-                "markdown",
-            )
-            self._attach_text(
-                message,
-                json.dumps(
-                    {
-                        "generated_at": now.isoformat(),
-                        "total_current_jobs": len(jobs),
-                        "new_jobs_count": len(new_jobs),
-                        "jobs": new_jobs,
-                    },
-                    indent=2,
-                    ensure_ascii=False,
-                ),
-                "new_jobs.json",
-                "application",
-                "json",
-            )
 
             context = ssl.create_default_context()
             with smtplib.SMTP_SSL(self.smtp_host, self.smtp_port, context=context) as server:
@@ -152,37 +127,9 @@ class EmailNotifier:
             [
                 "",
                 "Only jobs that have not been emailed before are included.",
-                "Attached files contain the new-jobs-only export.",
+                "This email includes the full digest inline with no attachments.",
             ]
         )
-
-        return "\n".join(lines)
-
-    def _build_markdown_attachment(self, jobs: List[Dict[str, Any]], total_jobs: int) -> str:
-        generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        lines = [
-            "# New Job Digest",
-            "",
-            f"Generated: {generated_at}",
-            "",
-            f"- New jobs: {len(jobs)}",
-            f"- Total current matches: {total_jobs}",
-            "",
-        ]
-
-        for index, job in enumerate(jobs, start=1):
-            lines.extend(
-                [
-                    f"## {index}. {job.get('title', 'N/A')}",
-                    "",
-                    f"- Company: {job.get('company', 'N/A')}",
-                    f"- Location: {job.get('location', 'N/A')}",
-                    f"- Score: {job.get('score', 0):.1f}",
-                    f"- Source: {job.get('source', 'N/A')}",
-                    f"- Apply: {job.get('url', 'N/A')}",
-                    "",
-                ]
-            )
 
         return "\n".join(lines)
 
@@ -238,33 +185,3 @@ class EmailNotifier:
             sent_state = dict(sorted_items[: self.state_limit])
 
         self._save_sent_state(sent_state)
-
-    def _attach_text(
-        self,
-        message: EmailMessage,
-        content: str,
-        filename: str,
-        maintype: str,
-        subtype: str,
-    ) -> None:
-        message.add_attachment(
-            content.encode("utf-8"),
-            maintype=maintype,
-            subtype=subtype,
-            filename=filename,
-        )
-
-    def _attach_file(self, message: EmailMessage, report_path: str) -> None:
-        mime_type, _ = mimetypes.guess_type(report_path)
-        if mime_type:
-            maintype, subtype = mime_type.split("/", 1)
-        else:
-            maintype, subtype = "application", "octet-stream"
-
-        with open(report_path, "rb") as report_file:
-            message.add_attachment(
-                report_file.read(),
-                maintype=maintype,
-                subtype=subtype,
-                filename=os.path.basename(report_path),
-            )
