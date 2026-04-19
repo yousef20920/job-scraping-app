@@ -1,0 +1,4141 @@
+{
+  "inspected": 413,
+  "summary": {
+    "unresolved": 388,
+    "lever": 7,
+    "greenhouse": 7,
+    "ashby": 11
+  },
+  "results": [
+    {
+      "company": "23andMe",
+      "careers_url": "https://www.23andme.com/careers/",
+      "final_url": "https://www.23andme.com/en-ca/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "6sense",
+      "careers_url": "https://6sense.com/about-us/careers-and-culture/",
+      "final_url": "https://6sense.com/about-us/careers-and-culture/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://6sense.com/about-us/careers-and-culture/"
+    },
+    {
+      "company": "A9",
+      "careers_url": "http://www.a9.com/work-with-us/",
+      "final_url": "http://www.a9.com/work-with-us/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPConnectionPool(host='www.a9.com', port=80): Max retries exceeded with url: /work-with-us/ (Caused by NameResolutionError(\"HTTPConnection(host='www.a9.com', port=80): Failed to resolve 'www.a9.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "Academia",
+      "careers_url": "http://www.academia.edu/hiring",
+      "final_url": "https://www.academia.edu/hiring",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Achievers",
+      "careers_url": "https://www.achievers.com/careers/jobs",
+      "final_url": "https://www.achievers.com/company/careers/",
+      "ats": "lever",
+      "board_token": null,
+      "board_url": "https://api.lever.co/v0/postings/achievers",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Acorns",
+      "careers_url": "https://www.acorns.com/careers",
+      "final_url": "https://www.acorns.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Acquia",
+      "careers_url": "https://www.acquia.com/careers/open-positions",
+      "final_url": "https://www.acquia.com/careers/open-positions",
+      "ats": "greenhouse",
+      "board_token": "acquia",
+      "board_url": null,
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Addepar",
+      "careers_url": "https://addepar.com/careers/",
+      "final_url": "https://addepar.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Affirm",
+      "careers_url": "https://www.affirm.com/careers/",
+      "final_url": "https://www.affirm.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Ahrefs",
+      "careers_url": "https://ahrefs.com/jobs",
+      "final_url": "https://ahrefs.com/careers",
+      "ats": "greenhouse",
+      "board_token": "ahrefsjobs",
+      "board_url": null,
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Airbnb",
+      "careers_url": "https://www.airbnb.com/careers",
+      "final_url": "https://careers.airbnb.com",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Airtable",
+      "careers_url": "https://airtable.com/jobs",
+      "final_url": "https://airtable.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Algebraix",
+      "careers_url": "http://algebraixdata.com/section/careers/",
+      "final_url": "http://algebraixdata.com/section/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: http://algebraixdata.com/section/careers/"
+    },
+    {
+      "company": "Algolia",
+      "careers_url": "https://www.algolia.com/careers",
+      "final_url": "https://www.algolia.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "AltSchool",
+      "careers_url": "https://www.altschool.com/about/careers",
+      "final_url": "https://www.altschool.com/about/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='www.altschool.com', port=443): Max retries exceeded with url: /about/careers (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.altschool.com', port=443) at 0x10a773b10>, 'Connection to www.altschool.com timed out. (connect timeout=20)'))"
+    },
+    {
+      "company": "Amino",
+      "careers_url": "https://amino.com/careers/",
+      "final_url": "https://www.judi.health/solutions/care-navigation",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Amobee",
+      "careers_url": "http://www.amobee.com/careers/",
+      "final_url": "http://www.amobee.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.amobee.com/company/careers/"
+    },
+    {
+      "company": "Ancestry",
+      "careers_url": "http://www.ancestry.com/corporate/careers/",
+      "final_url": "https://careers.ancestry.com",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "ANDigital",
+      "careers_url": "https://and.digital/join-us/",
+      "final_url": "https://and.digital/join-us/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.and.digital/join-us/"
+    },
+    {
+      "company": "Angellist",
+      "careers_url": "https://angel.co/angellist/jobs",
+      "final_url": "https://angel.co/angellist/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://wellfound.com/company/angellist/jobs"
+    },
+    {
+      "company": "AppFolio",
+      "careers_url": "http://www.appfolioinc.com/jobs",
+      "final_url": "https://www.appfolio.com/company/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "AppNexus",
+      "careers_url": "https://www.appnexus.com/en/company/careers",
+      "final_url": "https://about.ads.microsoft.com/en",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Apptio",
+      "careers_url": "http://www.apptio.com/about/careers",
+      "final_url": "https://www.ibm.com/careers/search?q=APPTIO",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Aptible",
+      "careers_url": "https://www.aptible.com/company/",
+      "final_url": "https://www.aptible.com/company/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.aptible.com/company/"
+    },
+    {
+      "company": "Asana",
+      "careers_url": "https://asana.com/jobs",
+      "final_url": "https://asana.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Aspiration Software",
+      "careers_url": "http://aspirationsoftware.com/careers/",
+      "final_url": "https://integratedintelsolutions.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Atomic",
+      "careers_url": "https://atomic.vc/careers/",
+      "final_url": "https://atomic.vc/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.atomic.vc/careers"
+    },
+    {
+      "company": "August",
+      "careers_url": "http://august.com/jobs/#.Vo1p-JMrKHo",
+      "final_url": "https://august.com/pages/careers#.Vo1p-JMrKHo",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "AutomatedInsights",
+      "careers_url": "https://automatedinsights.com/company",
+      "final_url": "https://www.statsperform.com/automated-insights/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Automattic",
+      "careers_url": "https://automattic.com/work-with-us/",
+      "final_url": "https://automattic.com/work-with-us/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "BambooHR",
+      "careers_url": "https://www.bamboohr.com/about/careers.php",
+      "final_url": "https://www.bamboohr.com/about/careers.php",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.bamboohr.com/careers/"
+    },
+    {
+      "company": "Benchling",
+      "careers_url": "https://benchling.com/careers",
+      "final_url": "https://www.benchling.com/careers",
+      "ats": "ashby",
+      "board_token": null,
+      "board_url": "https://jobs.ashbyhq.com/benchling",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Bending Spoons",
+      "careers_url": "http://bendingspoons.com/careers.html",
+      "final_url": "http://bendingspoons.com/careers.html",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://bendingspoons.com:443/careers.html"
+    },
+    {
+      "company": "Betterment",
+      "careers_url": "https://www.betterment.com/careers/",
+      "final_url": "https://www.betterment.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Bill.com",
+      "careers_url": "https://www.bill.com/about-us/careers/jobs/",
+      "final_url": "https://www.bill.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Bitly",
+      "careers_url": "https://bitly.com/pages/careers",
+      "final_url": "https://bitly.com/pages/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Bitnami",
+      "careers_url": "https://bitnami.com/careers",
+      "final_url": "https://bitnami.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error:  for url: https://bitnami.com/careers"
+    },
+    {
+      "company": "BitTiger",
+      "careers_url": "https://careers.bittiger.io/jobs/",
+      "final_url": "https://careers.bittiger.io/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='careers.bittiger.io', port=443): Max retries exceeded with url: /jobs/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'careers.bittiger.io'. (_ssl.c:1081)\")))"
+    },
+    {
+      "company": "BitTorrent",
+      "careers_url": "http://www.bittorrent.com/company/about/jobs",
+      "final_url": "https://www.bittorrent.com/company/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Blend Labs",
+      "careers_url": "https://blendlabs.com/careers/",
+      "final_url": "https://blend.com/company/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Bloomz",
+      "careers_url": "https://www.bloomz.net/jobs/",
+      "final_url": "https://www.bloomz.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Blue Origin",
+      "careers_url": "https://www.blueorigin.com/careers",
+      "final_url": "https://www.blueorigin.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "429 Client Error: Too Many Requests for url: https://www.blueorigin.com/careers"
+    },
+    {
+      "company": "Bonuz",
+      "careers_url": "http://bonuz.sumone.com.br/contato.html#talent",
+      "final_url": "http://bonuz.sumone.com.br/contato.html#talent",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Booking.com",
+      "careers_url": "https://workingatbooking.com/",
+      "final_url": "https://workingatbooking.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='workingatbooking.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='workingatbooking.com', port=443) at 0x10a772c10>, 'Connection to workingatbooking.com timed out. (connect timeout=20)'))"
+    },
+    {
+      "company": "Box",
+      "careers_url": "https://www.box.com/careers",
+      "final_url": "https://www.box.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.box.com/careers"
+    },
+    {
+      "company": "Brigade",
+      "careers_url": "https://jobs.lever.co/brigade",
+      "final_url": "https://jobs.lever.co/brigade",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://jobs.lever.co/brigade"
+    },
+    {
+      "company": "BuildASign",
+      "careers_url": "https://www.buildasign.com/careers",
+      "final_url": "https://www.buildasign.com/up/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "greenhouse validation failed: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/buildasigncom/jobs?content=true"
+    },
+    {
+      "company": "BuildZoom",
+      "careers_url": "https://www.buildzoom.com/careers",
+      "final_url": "https://www.buildzoom.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "lever validation failed: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/buildzoom?mode=json"
+    },
+    {
+      "company": "Bungie",
+      "careers_url": "https://www.bungie.net/en/AboutUs/index#!page=careers",
+      "final_url": "https://careers.bungie.com/about#!page=careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Busbud",
+      "careers_url": "https://www.busbud.com/en/careers",
+      "final_url": "https://www.busbud.com/en/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='www.busbud.com', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "company": "BuzzFeed",
+      "careers_url": "https://www.buzzfeed.com/about/jobs",
+      "final_url": "https://www.buzzfeed.com/about/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Canary",
+      "careers_url": "https://canary.is/careers/",
+      "final_url": "https://canary.is/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Capsule",
+      "careers_url": "https://www.capsulecares.com/about/",
+      "final_url": "https://www.capsule.com/about",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Captain401",
+      "careers_url": "https://captain401.com/careers",
+      "final_url": "https://humaninterest.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "greenhouse validation passed but board appears to belong to a different company"
+    },
+    {
+      "company": "Carbon",
+      "careers_url": "https://jobs.lever.co/carbon/",
+      "final_url": "https://jobs.lever.co/carbon/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://jobs.lever.co/carbon/"
+    },
+    {
+      "company": "Carousell",
+      "careers_url": "https://boards.greenhouse.io/carousell",
+      "final_url": "https://boards.greenhouse.io/carousell",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://job-boards.greenhouse.io/carousell"
+    },
+    {
+      "company": "Casetext",
+      "careers_url": "https://casetext.com/jobs",
+      "final_url": "https://casetext.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "410 Client Error: Gone for url: https://casetext.com/jobs"
+    },
+    {
+      "company": "Casper",
+      "careers_url": "http://www.casper.com/jobs",
+      "final_url": "https://casper.com/pages/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Catchpoint",
+      "careers_url": "http://www.catchpoint.com/careers/",
+      "final_url": "https://www.catchpoint.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "greenhouse validation failed: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/embed/jobs?content=true"
+    },
+    {
+      "company": "Centro",
+      "careers_url": "https://www.centro.net/careers",
+      "final_url": "https://www.centro.net/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "409 Client Error: Conflict for url: https://www.centro.net/careers"
+    },
+    {
+      "company": "change.org",
+      "careers_url": "https://www.change.org/careers",
+      "final_url": "https://careers.change.org",
+      "ats": "ashby",
+      "board_token": null,
+      "board_url": "https://jobs.ashbyhq.com/change",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Chaordic",
+      "careers_url": "https://www.chaordic.com.br/vagas/",
+      "final_url": "https://www.chaordic.com.br/vagas/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "company": "Checkr",
+      "careers_url": "https://checkr.com/careers/",
+      "final_url": "https://checkr.com/company/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Cheesecake Labs",
+      "careers_url": "https://cheesecakelabs.com/careers/",
+      "final_url": "https://cheesecakelabs.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Chewy",
+      "careers_url": "https://www.chewy.com/jobs",
+      "final_url": "https://careers.chewy.com/us/en/home",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Chexology",
+      "careers_url": "https://jobs.lever.co/chexology",
+      "final_url": "https://jobs.lever.co/chexology",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://jobs.lever.co/chexology"
+    },
+    {
+      "company": "CircleUp",
+      "careers_url": "https://circleup.com/jobs/",
+      "final_url": "https://circleup.com/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.circleup.com/jobs/"
+    },
+    {
+      "company": "Citrix",
+      "careers_url": "https://jobs.citrix.com/",
+      "final_url": "https://jobs.citrix.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='jobs.citrix.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'jobs.citrix.com'. (_ssl.c:1081)\")))"
+    },
+    {
+      "company": "Classy",
+      "careers_url": "https://www.classy.org/careers",
+      "final_url": "https://www.gofundme.com/c/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "greenhouse validation passed but board appears to belong to a different company"
+    },
+    {
+      "company": "ClearSlide",
+      "careers_url": "http://www.clearslide.com/careers/",
+      "final_url": "http://www.clearslide.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Clever",
+      "careers_url": "https://clever.com/about/jobs",
+      "final_url": "https://www.clever.com/job-listing",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Clippings",
+      "careers_url": "https://github.com/clippings/join-us#readme",
+      "final_url": "https://github.com/OpenBuildings/join-us#readme",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Cloudera",
+      "careers_url": "https://www.cloudera.com/careers.html",
+      "final_url": "https://www.cloudera.com/careers.html",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Clue",
+      "careers_url": "https://www.helloclue.com/jobs.html",
+      "final_url": "https://helloclue.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Clustrix",
+      "careers_url": "http://www.clustrix.com/careers/",
+      "final_url": "https://mariadb.com/about-us/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Codecademy",
+      "careers_url": "https://www.codecademy.com/about/jobs",
+      "final_url": "https://www.codecademy.com/about/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Codefights",
+      "careers_url": "https://jobs.lever.co/codefights",
+      "final_url": "https://jobs.lever.co/codefights",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://jobs.lever.co/codefights"
+    },
+    {
+      "company": "Codeship",
+      "careers_url": "https://codeship.com/jobs",
+      "final_url": "https://codeship.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "502 Server Error: Bad Gateway for url: https://codeship.com/jobs"
+    },
+    {
+      "company": "Coinbase",
+      "careers_url": "https://www.coinbase.com/careers",
+      "final_url": "https://www.coinbase.com/en-ca/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Collective Health",
+      "careers_url": "https://collectivehealth.com/jobs/",
+      "final_url": "https://jobs.collectivehealth.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Color",
+      "careers_url": "https://www.color.com/careers",
+      "final_url": "https://www.color.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Compass",
+      "careers_url": "https://www.compass.com/careers/",
+      "final_url": "https://www.compass.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "CoreOS",
+      "careers_url": "https://coreos.com/careers/",
+      "final_url": "https://www.redhat.com/en/technologies/cloud-computing/openshift",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "CornerStone OnDemand",
+      "careers_url": "https://www.cornerstoneondemand.com/careers",
+      "final_url": "https://www.cornerstoneondemand.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Couchbase",
+      "careers_url": "https://www.couchbase.com/careers",
+      "final_url": "https://www.couchbase.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.couchbase.com/careers"
+    },
+    {
+      "company": "Couchsurfing",
+      "careers_url": "http://www.couchsurfing.com/about/jobs/",
+      "final_url": "https://about.couchsurfing.com:443/about/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Counsyl",
+      "careers_url": "https://www.counsyl.com/careers/",
+      "final_url": "https://myriad.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Coursera",
+      "careers_url": "https://about.coursera.org/careers",
+      "final_url": "https://careers.coursera.com",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "CreditKarma",
+      "careers_url": "https://www.creditkarma.com/careers",
+      "final_url": "https://www.creditkarma.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "CrowdRise",
+      "careers_url": "https://www.crowdrise.com/about/jobs",
+      "final_url": "https://www.gofundme.com:443/c/crowdrise",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "CrowdStar",
+      "careers_url": "https://jobs.jobvite.com/glu-mobile/",
+      "final_url": "https://www.jobvite.com/support/job-seeker-support/?invalid=1",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Cruise",
+      "careers_url": "https://jobs.carnival.com/careers",
+      "final_url": "https://jobs.carnival.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://jobs.carnival.com/careers"
+    },
+    {
+      "company": "CrunchBase",
+      "careers_url": "https://about.crunchbase.com/careers/",
+      "final_url": "https://about.crunchbase.com/about-us/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Cumulus Networks",
+      "careers_url": "https://cumulusnetworks.com/about/careers/",
+      "final_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Curalate",
+      "careers_url": "https://www.themuse.com/companies/curalate",
+      "final_url": "https://www.themuse.com/profiles/bazaarvoice",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Curse",
+      "careers_url": "https://www.curseinc.com/careers?cookieTest=1",
+      "final_url": "https://www.curseinc.com/careers?cookieTest=1",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='www.curseinc.com', port=443): Max retries exceeded with url: /careers?cookieTest=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.curseinc.com', port=443) at 0x10a773750>, 'Connection to www.curseinc.com timed out. (connect timeout=20)'))"
+    },
+    {
+      "company": "Datadog",
+      "careers_url": "https://www.datadoghq.com/careers/",
+      "final_url": "https://careers.datadoghq.com",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "DigitalOcean",
+      "careers_url": "https://www.digitalocean.com/company/careers/",
+      "final_url": "https://www.digitalocean.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Disqus",
+      "careers_url": "https://disqus.com/jobs/",
+      "final_url": "https://disqus.com/about-us/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "DJI",
+      "careers_url": "https://we.dji.com/career.html",
+      "final_url": "https://we.dji.com/career.html",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://we.dji.com/zh-CN/404"
+    },
+    {
+      "company": "Docker",
+      "careers_url": "https://www.docker.com/careers",
+      "final_url": "https://www.docker.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "DocuSign",
+      "careers_url": "https://www.docusign.com/company/careers",
+      "final_url": "https://careers.docusign.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "DollarShaveClub",
+      "careers_url": "https://jobs.jobvite.com/dollarshaveclub",
+      "final_url": "https://www.jobvite.com/support/job-seeker-support/?invalid=1",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "DoorDash",
+      "careers_url": "https://www.doordash.com/careers/",
+      "final_url": "https://careersatdoordash.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Dot & Bo",
+      "careers_url": "https://www.dotandbo.com/content/jobs",
+      "final_url": "https://www.dotandbo.com/content/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://dotandbo.com/content/jobs"
+    },
+    {
+      "company": "DOT Digital Group",
+      "careers_url": "http://dotgroup.com.br/trabalhe-conosco/",
+      "final_url": "http://dotgroup.com.br/trabalhe-conosco/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://dotgroup.com.br/trabalhe-conosco/"
+    },
+    {
+      "company": "DraftKings",
+      "careers_url": "http://careers.draftkings.com/",
+      "final_url": "https://careers.draftkings.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "DroneDeploy",
+      "careers_url": "https://www.dronedeploy.com/careers.html",
+      "final_url": "https://www.dronedeploy.com/about/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Dropbox",
+      "careers_url": "https://www.dropbox.com/jobs",
+      "final_url": "https://www.dropbox.jobs/en/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Duolingo",
+      "careers_url": "https://www.duolingo.com/jobs",
+      "final_url": "https://careers.duolingo.com",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "EagleView",
+      "careers_url": "https://www.eagleview.com/careers",
+      "final_url": "https://careers.eagleview.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Edmodo",
+      "careers_url": "https://www.edmodo.com/careers",
+      "final_url": "https://www.edmodo.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Edmunds",
+      "careers_url": "https://www.edmunds.com/careers/",
+      "final_url": "https://www.edmunds.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.edmunds.com/careers/"
+    },
+    {
+      "company": "EdX",
+      "careers_url": "https://www.edx.org/careers",
+      "final_url": "https://www.edx.org/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "eHarmony",
+      "careers_url": "http://www.eharmony.com/about/careers/",
+      "final_url": "https://www.parshipmeet.com/en/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Elasticsearch",
+      "careers_url": "https://www.elastic.co/about/careers",
+      "final_url": "https://www.elastic.co/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Element.ai",
+      "careers_url": "http://www.elementai.com/en/careers?p=jobs",
+      "final_url": "http://www.elementai.com/en/careers?p=jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.servicenow.com/research/?p=jobs"
+    },
+    {
+      "company": "Elemental Technologies",
+      "careers_url": "https://www.elementaltechnologies.com/company/careers",
+      "final_url": "https://www.elementaltechnologies.com/company/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='www.elementaltechnologies.com', port=443): Max retries exceeded with url: /company/careers (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)')))"
+    },
+    {
+      "company": "EnergySavvy",
+      "careers_url": "http://www.energysavvy.com/about/careers",
+      "final_url": "http://www.energysavvy.com/about/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.energysavvy.com/about/careers"
+    },
+    {
+      "company": "Entelo",
+      "careers_url": "https://www.entelo.com/careers/",
+      "final_url": "https://rival-hr.com/entelo-recruit/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Epic",
+      "careers_url": "https://careers.epic.com/",
+      "final_url": "https://careers.epic.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Etsy",
+      "careers_url": "https://www.etsy.com/careers/",
+      "final_url": "https://careers.etsy.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Eventbrite",
+      "careers_url": "https://www.eventbrite.com/careers/",
+      "final_url": "https://www.eventbritecareers.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Evernote",
+      "careers_url": "https://evernote.com/careers/",
+      "final_url": "https://jobs.bendingspoons.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Facebook",
+      "careers_url": "https://www.facebook.com/careers/",
+      "final_url": "https://www.metacareers.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Faraday Future",
+      "careers_url": "https://www.ff.com/careers/",
+      "final_url": "http://www.ff.com/us/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Farfetch",
+      "careers_url": "https://www.farfetch.com/careers",
+      "final_url": "https://www.farfetch.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='farfetchcareers.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='farfetchcareers.com', port=443): Failed to resolve 'farfetchcareers.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "Fastly",
+      "careers_url": "https://www.fastly.com/about/careers",
+      "final_url": "https://www.fastly.com/about/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Fictiv",
+      "careers_url": "https://jobs.lever.co/fictiv",
+      "final_url": "https://jobs.lever.co/fictiv",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://jobs.lever.co/fictiv"
+    },
+    {
+      "company": "Fitbit",
+      "careers_url": "https://www.fitbit.com/careers",
+      "final_url": "https://www.google.com:443/about/careers/applications/jobs/results/?company=Fitbit",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "FiveStars",
+      "careers_url": "http://www.fivestars.com/careers/",
+      "final_url": "https://www.sumup.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Flatiron",
+      "careers_url": "https://www.flatiron.com/careers",
+      "final_url": "https://flatiron.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Flipboard",
+      "careers_url": "https://about.flipboard.com/careers/",
+      "final_url": "https://about.flipboard.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "greenhouse validation failed: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/embed/jobs?content=true"
+    },
+    {
+      "company": "Flipkart",
+      "careers_url": "http://www.flipkartcareers.com/",
+      "final_url": "https://www.flipkartcareers.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Flipp",
+      "careers_url": "https://corp.flipp.com/careers",
+      "final_url": "https://corp.flipp.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "greenhouse validation failed: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/embed/jobs?content=true"
+    },
+    {
+      "company": "Forex Factory",
+      "careers_url": "https://www.forexfactory.com/careers",
+      "final_url": "https://www.forexfactory.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Foursquare",
+      "careers_url": "https://foursquare.com/jobs/",
+      "final_url": "https://foursquare.com/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://foursquare.com/jobs/"
+    },
+    {
+      "company": "frame.ai",
+      "careers_url": "https://frame-ai.workable.com/",
+      "final_url": "https://apply.workable.com/frame-ai/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Funding Circle",
+      "careers_url": "https://www.fundingcircle.com/us/about/careers/",
+      "final_url": "https://www.fundingcircle.com/uk/international/us/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "General Assembly",
+      "careers_url": "https://generalassemb.ly/careers",
+      "final_url": "https://generalassemb.ly/careers",
+      "ats": "greenhouse",
+      "board_token": "generalassembly",
+      "board_url": null,
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "GetYourGuide",
+      "careers_url": "https://careers.getyourguide.com/",
+      "final_url": "https://www.getyourguide.careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Gigster",
+      "careers_url": "https://gigster.com/join-us",
+      "final_url": "https://gigster.com/join-us",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://gigster.com/"
+    },
+    {
+      "company": "GitHub",
+      "careers_url": "https://github.com/about/careers",
+      "final_url": "https://www.github.careers/careers-home",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "GitLab",
+      "careers_url": "https://about.gitlab.com/jobs/",
+      "final_url": "https://about.gitlab.com/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "GoDaddy",
+      "careers_url": "https://careers.godaddy.net/",
+      "final_url": "https://careers.godaddy",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Gree",
+      "careers_url": "http://product.gree.net/us/en/careers/",
+      "final_url": "https://hd.gree.net/jp/en/index.html",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Greenhouse",
+      "careers_url": "http://www.greenhouse.io/careers",
+      "final_url": "https://www.greenhouse.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "GrubHub",
+      "careers_url": "https://www.grubhub.com/about/careers",
+      "final_url": "https://www.grubhub.com/about/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Guidewire",
+      "careers_url": "https://careers.guidewire.com/jobs/",
+      "final_url": "https://www.guidewire.com/about/careers/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "GumGum",
+      "careers_url": "http://www.gumgum.com/careers",
+      "final_url": "https://gumgum.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Gusto",
+      "careers_url": "https://gusto.com/about/careers",
+      "final_url": "https://gusto.com/about/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "HackerRank",
+      "careers_url": "https://www.hackerrank.com/careers",
+      "final_url": "https://www.hackerrank.com/careers/home",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Haiku Deck",
+      "careers_url": "https://www.haikudeck.com/jobs",
+      "final_url": "https://www.haikudeck.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Hailo",
+      "careers_url": "https://hailo.workable.com/",
+      "final_url": "https://apply.workable.com/hailo/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Hart, Inc.",
+      "careers_url": "https://boards.greenhouse.io/hart",
+      "final_url": "https://boards.greenhouse.io/hart",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://job-boards.greenhouse.io/hart"
+    },
+    {
+      "company": "Helix",
+      "careers_url": "https://www.helix.com/careers",
+      "final_url": "https://www.helix.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Helpling",
+      "careers_url": "https://www.helpling.de/careers",
+      "final_url": "https://helpling-group.com/joinus/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Hipmunk",
+      "careers_url": "https://www.hipmunk.com/jobs",
+      "final_url": "https://www.hipmunk.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='www.hipmunk.com', port=443): Max retries exceeded with url: /jobs (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hipmunk.com', port=443) at 0x10a772fd0>, 'Connection to www.hipmunk.com timed out. (connect timeout=20)'))"
+    },
+    {
+      "company": "HomeAway",
+      "careers_url": "https://www.homeaway.com/careers/openings/",
+      "final_url": "https://www.homeaway.com/careers/openings/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "429 Client Error: Too Many Requests for url: https://www.vrbo.com/careers/openings/?vgdc=HAUS&preferlocale=true"
+    },
+    {
+      "company": "HubSpot",
+      "careers_url": "https://www.hubspot.com/jobs",
+      "final_url": "https://www.hubspot.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Hulu",
+      "careers_url": "http://www.hulu.com/jobs",
+      "final_url": "https://www.disneyplus.com/en-ca/welcome/hulu-on-disneyplus",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "iCIMS",
+      "careers_url": "https://careers.icims.com",
+      "final_url": "https://careers.icims.com/careers-home/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Idealab",
+      "careers_url": "http://www.idealab.com/about_idealab/careers.html",
+      "final_url": "https://www.idealab.com/about_idealab/careers.html",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "IFTTT",
+      "careers_url": "https://ifttt.com/jobs",
+      "final_url": "https://ifttt.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "IgnitionOne",
+      "careers_url": "https://www.ignitionone.com/company/careers/",
+      "final_url": "https://ignitionone.com/company/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Illumio",
+      "careers_url": "https://www.illumio.com/career-teamillumio",
+      "final_url": "https://www.illumio.com/company/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Imgur",
+      "careers_url": "http://imgur.com/jobs",
+      "final_url": "https://imgur.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Indeed",
+      "careers_url": "http://www.indeed.com/cmp/Indeed",
+      "final_url": "http://www.indeed.com/cmp/Indeed",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.indeed.com/cmp/Indeed"
+    },
+    {
+      "company": "Indiegogo",
+      "careers_url": "https://www.indiegogo.com/careers",
+      "final_url": "https://www.indiegogo.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.indiegogo.com/careers"
+    },
+    {
+      "company": "Infinera",
+      "careers_url": "https://infinera.wd1.myworkdayjobs.com/Infinera_Careers",
+      "final_url": "https://infinera.wd1.myworkdayjobs.com/Infinera_Careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "InfluxDB",
+      "careers_url": "https://www.influxdata.com/careers/",
+      "final_url": "https://www.influxdata.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "ashby validation passed but board appears to belong to a different company"
+    },
+    {
+      "company": "InMobi",
+      "careers_url": "http://www.inmobi.com/company/careers/",
+      "final_url": "https://www.inmobi.com/company/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "InstaCart",
+      "careers_url": "https://careers.instacart.com/",
+      "final_url": "https://www.instacart.careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Instructure",
+      "careers_url": "https://www.instructure.com/careers/",
+      "final_url": "https://www.instructure.com/about/careers",
+      "ats": "ashby",
+      "board_token": null,
+      "board_url": "https://jobs.ashbyhq.com/instructure",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Integral Ad Science",
+      "careers_url": "https://integralads.com/about/careers/",
+      "final_url": "https://integralads.com/about-ias/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Intellisis",
+      "careers_url": "http://www.knuedge.com/",
+      "final_url": "http://www.knuedge.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPConnectionPool(host='www.knuedge.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='www.knuedge.com', port=80): Failed to resolve 'www.knuedge.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "Intentional",
+      "careers_url": "http://www.intentsoft.com/careers/",
+      "final_url": "http://www.intentsoft.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: http://www.intentsoft.com/careers/"
+    },
+    {
+      "company": "Interactive Intelligence",
+      "careers_url": "https://www.genesys.com/inin/careers",
+      "final_url": "https://www.genesys.com/company/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Intercom",
+      "careers_url": "https://www.intercom.com/careers",
+      "final_url": "https://www.intercom.com/careers",
+      "ats": "greenhouse",
+      "board_token": "intercom",
+      "board_url": null,
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Intrepid Pursuits",
+      "careers_url": "http://team.intrepid.io/careers",
+      "final_url": "http://team.intrepid.io/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPConnectionPool(host='team.intrepid.io', port=80): Max retries exceeded with url: /careers (Caused by NameResolutionError(\"HTTPConnection(host='team.intrepid.io', port=80): Failed to resolve 'team.intrepid.io' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "Invoice2go",
+      "careers_url": "https://invoice.2go.com/careers/",
+      "final_url": "https://invoice.2go.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "IXL Learning",
+      "careers_url": "https://www.ixl.com/company/jobs",
+      "final_url": "https://www.ixl.com/company/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Jawbone",
+      "careers_url": "https://jawbone.com/careers",
+      "final_url": "https://jawbone.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.jawbone.com/careers"
+    },
+    {
+      "company": "Jet",
+      "careers_url": "https://jet.com/careers",
+      "final_url": "https://www.walmart.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "JetBrains",
+      "careers_url": "https://www.jetbrains.com/company/jobs/",
+      "final_url": "https://job-boards.eu.greenhouse.io/jetbrains",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Jiminny",
+      "careers_url": "https://www.jiminny.com/careers.html",
+      "final_url": "https://www.jiminny.com/careers.html",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.jiminny.com/careers.html"
+    },
+    {
+      "company": "Jive",
+      "careers_url": "https://www.jivesoftware.com/about-jive/careers/",
+      "final_url": "https://ignitetech.ai/software-library/jive/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Jobvite",
+      "careers_url": "http://www.jobvite.com/company/careers/",
+      "final_url": "http://www.jobvite.com/company/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://careers.employinc.com/"
+    },
+    {
+      "company": "JustWatch",
+      "careers_url": "https://www.justwatch.com/us/talent",
+      "final_url": "https://www.justwatch.com/us/talent",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Kayak",
+      "careers_url": "https://www.kayak.com/careers",
+      "final_url": "https://www.kayak.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "KeepSafe",
+      "careers_url": "https://www.getkeepsafe.com/careers.html",
+      "final_url": "https://www.getkeepsafe.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Khan Academy",
+      "careers_url": "https://www.khanacademy.org/careers",
+      "final_url": "https://www.khanacademy.org/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Kickstarter",
+      "careers_url": "https://www.kickstarter.com/jobs",
+      "final_url": "https://jobs.kickstarter.com",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "greenhouse validation failed: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/embed/jobs?content=true"
+    },
+    {
+      "company": "Kik",
+      "careers_url": "http://www.kik.com/careers/",
+      "final_url": "http://www.kik.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPConnectionPool(host='www.kik.com', port=80): Max retries exceeded with url: /careers/ (Caused by NameResolutionError(\"HTTPConnection(host='www.kik.com', port=80): Failed to resolve 'www.kik.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "Kinnek",
+      "careers_url": "https://www.kinnek.com/jointeam/",
+      "final_url": "https://www.kinnek.com/jointeam/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='www.kinnek.com', port=443): Max retries exceeded with url: /jointeam/ (Caused by NameResolutionError(\"HTTPSConnection(host='www.kinnek.com', port=443): Failed to resolve 'www.kinnek.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "Klarna",
+      "careers_url": "https://www.klarna.com/careers",
+      "final_url": "https://www.klarna.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Knowles",
+      "careers_url": "http://www.knowles.com/eng/Our-company/Careers",
+      "final_url": "http://www.knowles.com/eng/Our-company/Careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.knowles.com/eng/Our-company/Careers"
+    },
+    {
+      "company": "Laserfiche",
+      "careers_url": "http://jobs.laserfiche.com/",
+      "final_url": "https://www.laserfiche.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "LendUp",
+      "careers_url": "https://www.lendup.com/careers",
+      "final_url": "https://www.lendup.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "410 Client Error: Gone for url: https://www.lendup.com/careers"
+    },
+    {
+      "company": "Lever",
+      "careers_url": "https://jobs.lever.co/lever",
+      "final_url": "https://jobs.lever.co/lever",
+      "ats": "lever",
+      "board_token": null,
+      "board_url": "https://api.lever.co/v0/postings/lever",
+      "source": "final_url",
+      "error": null
+    },
+    {
+      "company": "Lifesize",
+      "careers_url": "https://www.lifesize.com/en/company/careers",
+      "final_url": "https://www.enghouse.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Liftoff",
+      "careers_url": "https://liftoff.io/company/careers/",
+      "final_url": "https://liftoff.ai/company/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "LinkedIn",
+      "careers_url": "https://www.linkedin.com/company/linkedin/careers",
+      "final_url": "https://www.linkedin.com/company/linkedin/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Linode",
+      "careers_url": "https://www.linode.com/careers",
+      "final_url": "https://www.linode.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.akamai.com/careers"
+    },
+    {
+      "company": "Lithium",
+      "careers_url": "https://www.lithium.com/company/careers/job-openings/",
+      "final_url": "https://www.lithium.com/company/careers/job-openings/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='www.lithium.com', port=443): Max retries exceeded with url: /company/careers/job-openings/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)')))"
+    },
+    {
+      "company": "Livescribe",
+      "careers_url": "http://www.livescribe.com/en-us/jobs/",
+      "final_url": "http://www.livescribe.com/en-us/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Logitech",
+      "careers_url": "http://www.logitech.com/en-us/careers/home",
+      "final_url": "http://www.logitech.com/en-us/careers/home",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.logitech.com/en-us/careers/home"
+    },
+    {
+      "company": "Looker",
+      "careers_url": "https://looker.com/company/careers",
+      "final_url": "https://cloud.google.com/looker-bi",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Lucid Software",
+      "careers_url": "https://www.golucid.co/jobs",
+      "final_url": "https://lucid.co/careers/",
+      "ats": "greenhouse",
+      "board_token": "lucidsoftware",
+      "board_url": null,
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Luxe",
+      "careers_url": "https://angel.co/luxe-1/jobs",
+      "final_url": "https://angel.co/luxe-1/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://wellfound.com/company/luxe-1/jobs"
+    },
+    {
+      "company": "Lyft",
+      "careers_url": "https://www.lyft.com/jobs",
+      "final_url": "https://www.lyft.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Machine Zone",
+      "careers_url": "https://www.mz.com/careers",
+      "final_url": "https://www.mz.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='www.mz.com', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
+    },
+    {
+      "company": "Magic",
+      "careers_url": "https://getmagic.com/jobs",
+      "final_url": "https://getmagic.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "MailChimp",
+      "careers_url": "https://mailchimp.com/about/jobs/",
+      "final_url": "https://mailchimp.com/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Mark 43",
+      "careers_url": "https://www.mark43.com/careers/",
+      "final_url": "https://mark43.com/company/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Marketo",
+      "careers_url": "http://marketo.jobs/careers/",
+      "final_url": "http://marketo.jobs/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "409 Client Error: Conflict for url: http://marketo.jobs/careers/"
+    },
+    {
+      "company": "Mattermark",
+      "careers_url": "https://mattermark.com/jobs/",
+      "final_url": "https://mattermark.com/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "lever validation failed: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/mattermark?mode=json"
+    },
+    {
+      "company": "Matterport",
+      "careers_url": "https://matterport.com/positions/",
+      "final_url": "https://matterport.com/positions/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://matterport.com/positions"
+    },
+    {
+      "company": "Medallia",
+      "careers_url": "http://www.medallia.com/open-positions/",
+      "final_url": "https://jobs.medallia.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Medium",
+      "careers_url": "https://jobs.medium.com/",
+      "final_url": "https://jobs.medium.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://jobs.medium.com/"
+    },
+    {
+      "company": "Meetup",
+      "careers_url": "http://www.meetup.com/jobs/",
+      "final_url": "https://jobs.bendingspoons.com",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Mesosphere",
+      "careers_url": "https://mesosphere.com/careers/",
+      "final_url": "https://careers.nutanix.com/en/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Meteor",
+      "careers_url": "https://www.meteor.com/careers",
+      "final_url": "https://www.meteor.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Metromile",
+      "careers_url": "https://boards.greenhouse.io/metromile#.Vo7qppMrIo8",
+      "final_url": "https://boards.greenhouse.io/metromile#.Vo7qppMrIo8",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://job-boards.greenhouse.io/metromile#.Vo7qppMrIo8"
+    },
+    {
+      "company": "Mind Candy",
+      "careers_url": "http://mindcandy.com/careers",
+      "final_url": "http://mindcandy.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: http://www.mindcandy.com/careers"
+    },
+    {
+      "company": "MindTouch",
+      "careers_url": "https://mindtouch.com/about/careers",
+      "final_url": "https://www.nice.com/products/knowledge-management",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "MixBit",
+      "careers_url": "https://mixbit.com/jobs",
+      "final_url": "https://mixbit.com/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Mixmax",
+      "careers_url": "https://mixmax.com/careers",
+      "final_url": "https://www.mixmax.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "greenhouse validation failed: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/embed/jobs?content=true"
+    },
+    {
+      "company": "Mixpanel",
+      "careers_url": "https://mixpanel.com/jobs/",
+      "final_url": "https://mixpanel.com/jobs/",
+      "ats": "greenhouse",
+      "board_token": "mixpanel",
+      "board_url": null,
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "MLab",
+      "careers_url": "https://mlab.com/company/",
+      "final_url": "https://mlab.com/company/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='mlab.com', port=443): Max retries exceeded with url: /company/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mlab.com'. (_ssl.c:1081)\")))"
+    },
+    {
+      "company": "MongoDB",
+      "careers_url": "https://www.mongodb.com/careers",
+      "final_url": "https://www.mongodb.com/company/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Moz",
+      "careers_url": "https://moz.com/about/jobs",
+      "final_url": "https://moz.com/about/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Mozilla",
+      "careers_url": "https://careers.mozilla.org/",
+      "final_url": "https://www.mozilla.org/en-US/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "MuleSoft",
+      "careers_url": "https://www.mulesoft.com/careers",
+      "final_url": "https://www.mulesoft.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.mulesoft.com/careers"
+    },
+    {
+      "company": "Munchery",
+      "careers_url": "https://munchery.com/jobs/",
+      "final_url": "https://munchery.com/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='munchery.com', port=443): Max retries exceeded with url: /jobs/ (Caused by NameResolutionError(\"HTTPSConnection(host='munchery.com', port=443): Failed to resolve 'munchery.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "Narrative Science",
+      "careers_url": "https://narrativescience.com/careers",
+      "final_url": "https://narrativescience.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.tableau.com/about/careers"
+    },
+    {
+      "company": "Nervana Systems",
+      "careers_url": "http://www.nervanasys.com/careers/",
+      "final_url": "http://www.nervanasys.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPConnectionPool(host='www.nervanasys.com', port=80): Max retries exceeded with url: /careers/ (Caused by NameResolutionError(\"HTTPConnection(host='www.nervanasys.com', port=80): Failed to resolve 'www.nervanasys.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "New Relic",
+      "careers_url": "https://newrelic.com/about/careers",
+      "final_url": "https://newrelic.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Nexmo",
+      "careers_url": "https://www.nexmo.com/careers/",
+      "final_url": "https://www.nexmo.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.vonage.com:443/"
+    },
+    {
+      "company": "Nextdoor",
+      "careers_url": "https://nextdoor.com/jobs/",
+      "final_url": "https://about.nextdoor.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "greenhouse validation failed: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/embed/jobs?content=true"
+    },
+    {
+      "company": "Niantic",
+      "careers_url": "https://www.nianticlabs.com/jobs/",
+      "final_url": "https://www.scopely.com/en/join-us",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "greenhouse validation passed but board appears to belong to a different company"
+    },
+    {
+      "company": "Nulogy",
+      "careers_url": "https://nulogy.com/who-we-are/careers/",
+      "final_url": "https://nulogy.com/company/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Nutanix",
+      "careers_url": "https://www.nutanix.com/careers/",
+      "final_url": "https://careers.nutanix.com/en/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Oblong",
+      "careers_url": "http://www.oblong.com/company/careers/",
+      "final_url": "https://www.taoweave.ai/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Okta",
+      "careers_url": "https://www.okta.com/company/careers/",
+      "final_url": "https://www.okta.com/company/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Onefootball",
+      "careers_url": "https://www.onefootball.com/company/careers.html",
+      "final_url": "https://company.onefootball.com",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "OneLogin",
+      "careers_url": "https://www.onelogin.com/jobs",
+      "final_url": "https://www.oneidentity.com/company/careers.aspx",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Opendoor",
+      "careers_url": "https://www.opendoor.com/jobs",
+      "final_url": "https://www.opendoor.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "OpenTable",
+      "careers_url": "http://www.opentable.com/careers/",
+      "final_url": "http://www.opentable.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPConnectionPool(host='www.opentable.com', port=80): Read timed out. (read timeout=20)"
+    },
+    {
+      "company": "Open Whisper Systems",
+      "careers_url": "https://whispersystems.org/workworkwork/",
+      "final_url": "https://signal.org/workworkwork/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "lever validation passed but board appears to belong to a different company"
+    },
+    {
+      "company": "OpenX",
+      "careers_url": "http://www.openx.com/open-positions/",
+      "final_url": "http://www.openx.com/open-positions/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.openx.com:443/open-positions/"
+    },
+    {
+      "company": "Operator",
+      "careers_url": "https://operator.com/jobs",
+      "final_url": "https://operator.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.operator.com/jobs"
+    },
+    {
+      "company": "Optimizely",
+      "careers_url": "https://www.optimizely.com/careers/",
+      "final_url": "https://careers.optimizely.com:443/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Oscar Health",
+      "careers_url": "https://www.hioscar.com/careers/",
+      "final_url": "https://www.hioscar.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Palantir",
+      "careers_url": "https://www.palantir.com/careers/",
+      "final_url": "https://www.palantir.com/careers/",
+      "ats": "lever",
+      "board_token": null,
+      "board_url": "https://api.lever.co/v0/postings/palantir",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Palo Alto Networks",
+      "careers_url": "https://www.paloaltonetworks.com/company/careers.html",
+      "final_url": "https://jobs.paloaltonetworks.com/en?ref=https%3A%2F%2Fgithubhelp.com",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Pandora",
+      "careers_url": "http://www.pandora.com/careers/all",
+      "final_url": "http://www.pandora.com/careers/all",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Paypal",
+      "careers_url": "https://www.paypal.com/webapps/mpp/jobs",
+      "final_url": "https://careers.pypl.com/home/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Paytm Labs",
+      "careers_url": "https://jobs.lever.co/paytm",
+      "final_url": "https://jobs.lever.co/paytm",
+      "ats": "lever",
+      "board_token": null,
+      "board_url": "https://api.lever.co/v0/postings/paytm",
+      "source": "final_url",
+      "error": null
+    },
+    {
+      "company": "Pinterest",
+      "careers_url": "https://careers.pinterest.com/",
+      "final_url": "https://www.pinterestcareers.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Pivotal",
+      "careers_url": "https://pivotal.io/careers",
+      "final_url": "https://pivotal.io/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='pivotal.io', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)')))"
+    },
+    {
+      "company": "PlushCare",
+      "careers_url": "https://www.plushcare.com/careers/",
+      "final_url": "https://plushcare.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Postmates",
+      "careers_url": "https://postmates.com/jobs",
+      "final_url": "https://postmates.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://postmates.com/jobs"
+    },
+    {
+      "company": "Prezi",
+      "careers_url": "http://prezi.com/jobs/",
+      "final_url": "https://prezi.com/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Priceline",
+      "careers_url": "https://careers.priceline.com/",
+      "final_url": "https://careers.priceline.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Prism",
+      "careers_url": "https://prism.com/careers/",
+      "final_url": "https://prism.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='prism.com', port=443): Max retries exceeded with url: /careers/ (Caused by NameResolutionError(\"HTTPSConnection(host='prism.com', port=443): Failed to resolve 'prism.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "Pristine",
+      "careers_url": "https://pristine.io/careers/",
+      "final_url": "https://www.teamviewer.com/en-us/special/acquisitions/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Procore Technologies",
+      "careers_url": "https://www.procore.com/jobs/",
+      "final_url": "https://careers.procore.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Prominic",
+      "careers_url": "https://prominic.net/careers/",
+      "final_url": "https://prominic.net/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.prominic.net/careers"
+    },
+    {
+      "company": "Pure Storage",
+      "careers_url": "https://www.purestorage.com/company/careers.html",
+      "final_url": "https://www.purestorage.com/company/careers.html",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Qlik",
+      "careers_url": "http://www.qlik.com/us/company/careers",
+      "final_url": "https://www.qlik.com/us/company/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Qualtrics",
+      "careers_url": "https://www.qualtrics.com/careers/",
+      "final_url": "https://www.qualtrics.com/careers/us/en",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Quantcast",
+      "careers_url": "https://www.quantcast.com/careers/",
+      "final_url": "https://www.quantcast.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Qubole",
+      "careers_url": "https://www.qubole.com/company/careers/",
+      "final_url": "https://www.qubole.com/company/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Quip",
+      "careers_url": "https://quip.com/about/jobs",
+      "final_url": "https://quip.com/about/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://quip.com/about/jobs"
+    },
+    {
+      "company": "Quizlet",
+      "careers_url": "https://quizlet.com/jobs",
+      "final_url": "https://quizlet.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://quizlet.com/jobs"
+    },
+    {
+      "company": "Quora",
+      "careers_url": "https://www.quora.com/careers",
+      "final_url": "https://www.quora.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.quora.com/careers"
+    },
+    {
+      "company": "Rackspace",
+      "careers_url": "https://rackspace.jobs/",
+      "final_url": "https://rackspace.wd1.myworkdayjobs.com/External",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Radius",
+      "careers_url": "http://radius.com/careers/",
+      "final_url": "https://www.radius.com/en-gb/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "ReadMe",
+      "careers_url": "https://readme.io/careers/",
+      "final_url": "https://readme.com/careers",
+      "ats": "ashby",
+      "board_token": null,
+      "board_url": "https://jobs.ashbyhq.com/readme",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Redbooth",
+      "careers_url": "https://www.redbooth.com/careers/",
+      "final_url": "https://redbooth.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Redbull",
+      "careers_url": "http://jobs.redbull.com/us/en-US",
+      "final_url": "https://jobs.redbull.com/us-en",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Reddit",
+      "careers_url": "https://about.reddit.com/careers/",
+      "final_url": "https://redditinc.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Redfin",
+      "careers_url": "https://www.redfin.com/about/jobs",
+      "final_url": "https://careers.redfin.com/us/en",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Redis-Labs",
+      "careers_url": "https://redislabs.com/company/careers/",
+      "final_url": "https://redislabs.com/company/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='redislabs.com', port=443): Max retries exceeded with url: /company/careers/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'redislabs.com'. (_ssl.c:1081)\")))"
+    },
+    {
+      "company": "RedMart",
+      "careers_url": "http://about.redmart.com/careers/",
+      "final_url": "http://about.redmart.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPConnectionPool(host='about.redmart.com', port=80): Max retries exceeded with url: /careers/ (Caused by NameResolutionError(\"HTTPConnection(host='about.redmart.com', port=80): Failed to resolve 'about.redmart.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "Red Nova Labs",
+      "careers_url": "http://www.rednovalabs.com/",
+      "final_url": "https://www.storable.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "greenhouse validation failed: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/embed/jobs?content=true"
+    },
+    {
+      "company": "Remitly",
+      "careers_url": "https://www.remitly.com/us/en/home/careers",
+      "final_url": "https://careers.remitly.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "ResearchGate",
+      "careers_url": "https://www.researchgate.net/careers#positions",
+      "final_url": "https://www.researchgate.net/careers#positions",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.researchgate.net/careers#positions"
+    },
+    {
+      "company": "Resultados Digitais",
+      "careers_url": "https://resultadosdigitais.com.br/trabalhe-conosco/",
+      "final_url": "https://www.rdstation.com/blog/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "RetailNext",
+      "careers_url": "https://retailnext.net/about-us/career-openings/",
+      "final_url": "https://retailnext.net/about-us/career-openings/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://retailnext.net/about-us/career-openings"
+    },
+    {
+      "company": "Riot Games",
+      "careers_url": "https://www.riotgames.com/careers",
+      "final_url": "https://www.riotgames.com/en/work-with-us",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "RiskIQ",
+      "careers_url": "https://www.riskiq.com/about/careers/",
+      "final_url": "https://www.microsoft.com/en-ca/security/business/siem-and-xdr/microsoft-defender-threat-intelligence",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Roadtrippers",
+      "careers_url": "http://jobs.roadtrippers.com",
+      "final_url": "https://roadtrippers.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Robinhood",
+      "careers_url": "https://robinhood.com/jobs/",
+      "final_url": "https://careers.robinhood.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "ROBLOX",
+      "careers_url": "https://corp.roblox.com/careers",
+      "final_url": "https://corp.roblox.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='careers.roblox.com', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "company": "Roku",
+      "careers_url": "https://www.roku.com/about/jobs",
+      "final_url": "https://www.weareroku.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Rover.com",
+      "careers_url": "http://jobs.rover.com/",
+      "final_url": "https://www.rover.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "rubrik",
+      "careers_url": "https://www.rubrik.com/company/careers/",
+      "final_url": "https://www.rubrik.com/company/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.rubrik.com/company/careers/"
+    },
+    {
+      "company": "SADA Systems",
+      "careers_url": "https://sadasystems.com/careers",
+      "final_url": "https://sadasystems.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='sadasystems.com', port=443): Max retries exceeded with url: /careers (Caused by ConnectTimeoutError(<HTTPSConnection(host='sadasystems.com', port=443) at 0x10a7725d0>, 'Connection to sadasystems.com timed out. (connect timeout=20)'))"
+    },
+    {
+      "company": "ScoreBig",
+      "careers_url": "http://scorebig.applytojob.com/apply",
+      "final_url": "https://info.jazzhr.com/job-seekers.html",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Scribd",
+      "careers_url": "https://www.scribd.com/about/jobs",
+      "final_url": "https://www.scribdinc.com/careers",
+      "ats": "ashby",
+      "board_token": null,
+      "board_url": "https://jobs.ashbyhq.com/ScribdInc",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Seamless",
+      "careers_url": "https://www.seamless.com/about/careers",
+      "final_url": "https://www.seamless.com/about/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "SeatGeek",
+      "careers_url": "https://seatgeek.com/jobs",
+      "final_url": "https://seatgeek.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://seatgeek.com/jobs"
+    },
+    {
+      "company": "Segment",
+      "careers_url": "https://segment.com/jobs",
+      "final_url": "https://jobs.twilio.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "SendGrid",
+      "careers_url": "https://sendgrid.com/careers/",
+      "final_url": "https://jobs.twilio.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Sensus",
+      "careers_url": "https://sensus.com/careers/",
+      "final_url": "https://www.xylem.com/en-us/brand/sensus/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Shazam",
+      "careers_url": "https://www.shazam.com/gb/careers?",
+      "final_url": "https://www.shazam.com/gb/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "SheerID",
+      "careers_url": "https://www.sheerid.com/jobs-at-sheerid/",
+      "final_url": "https://www.sheerid.com/jobs-at-sheerid/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://jobs.lever.co/sheerid"
+    },
+    {
+      "company": "Shopify",
+      "careers_url": "https://www.shopify.com/careers",
+      "final_url": "https://www.shopify.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "ShoreTel",
+      "careers_url": "https://www.shoretel.com/careers",
+      "final_url": "https://www.mitel.com:443/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Shutterfly",
+      "careers_url": "https://www.shutterflyinc.com/jobs/",
+      "final_url": "https://www.shutterflyinc.com/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://shutterflycareers.ttcportals.com/?p=jobs&nl=1"
+    },
+    {
+      "company": "Sift Science",
+      "careers_url": "https://siftscience.com/careers",
+      "final_url": "https://sift.com/careers",
+      "ats": "ashby",
+      "board_token": null,
+      "board_url": "https://jobs.ashbyhq.com/sift",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Signifyd",
+      "careers_url": "https://www.signifyd.com/careers/",
+      "final_url": "https://www.signifyd.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "SimplyCredit",
+      "careers_url": "https://simplycreditinc.com/careers",
+      "final_url": "https://simplycreditinc.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='simplycreditinc.com', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)')))"
+    },
+    {
+      "company": "SKHMS",
+      "careers_url": "http://www.skhms.com/careers/",
+      "final_url": "http://www.skhms.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.skhms.com/careers/"
+    },
+    {
+      "company": "Skillshare",
+      "careers_url": "https://www.skillshare.com/careers",
+      "final_url": "https://apply.workable.com/skillshare/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Slack",
+      "careers_url": "https://slack.com/jobs",
+      "final_url": "https://slack.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Slice",
+      "careers_url": "https://careers.slice.com/",
+      "final_url": "https://careers.slice.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='careers.slice.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='careers.slice.com', port=443): Failed to resolve 'careers.slice.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "Smarking",
+      "careers_url": "https://www.smarking.net/careers",
+      "final_url": "https://www.smarking.net/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.smarking.net/careers"
+    },
+    {
+      "company": "Smartsheet",
+      "careers_url": "https://www.smartsheet.com/careers",
+      "final_url": "https://www.smartsheet.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "SmartThings",
+      "careers_url": "https://www.smartthings.com/careers",
+      "final_url": "https://www.smartthings.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://partners.smartthings.com/careers"
+    },
+    {
+      "company": "Smule",
+      "careers_url": "https://www.smule.com/jobs",
+      "final_url": "https://www.smule.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Snapchat",
+      "careers_url": "https://www.snapchat.com/jobs",
+      "final_url": "https://careers.snap.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "SocialBase",
+      "careers_url": "http://www.socialbase.com.br/carreiras",
+      "final_url": "https://socialbase.com.br/carreiras/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Socotra",
+      "careers_url": "https://www.socotra.com/careers/",
+      "final_url": "https://www.socotra.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "SoundCloud",
+      "careers_url": "https://soundcloud.com/jobs",
+      "final_url": "https://soundcloud.com/company/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Source Intelligence",
+      "careers_url": "https://www.sourceintelligence.com/careers/",
+      "final_url": "https://www.sourceintelligence.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "SpaceX",
+      "careers_url": "http://www.spacex.com/careers",
+      "final_url": "http://www.spacex.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "520 Server Error: <none> for url: http://www.spacex.com/careers"
+    },
+    {
+      "company": "Spotify",
+      "careers_url": "https://www.spotifyjobs.com/",
+      "final_url": "https://www.lifeatspotify.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Sprout Social",
+      "careers_url": "https://sproutsocial.com/careers",
+      "final_url": "https://sproutsocial.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Square",
+      "careers_url": "https://squareup.com/careers",
+      "final_url": "https://careers.squareup.com/ca/en",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Squarespace",
+      "careers_url": "https://www.squarespace.com/about/careers",
+      "final_url": "https://www.squarespace.com/about/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "SSi Micro",
+      "careers_url": "https://ssimicro.com/job-postings",
+      "final_url": "https://ssimicro.com/job-postings",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='ssimicro.com', port=443): Max retries exceeded with url: /job-postings (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'ssimicro.com'. (_ssl.c:1081)\")))"
+    },
+    {
+      "company": "StackPath",
+      "careers_url": "https://www.stackpath.com/careers/",
+      "final_url": "https://www.stackpath.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.stackpath.com/careers/"
+    },
+    {
+      "company": "SteelHouse",
+      "careers_url": "https://steelhouse.com/about/",
+      "final_url": "https://steelhouse.com/about/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://steelhouse.com/about/"
+    },
+    {
+      "company": "Stripe",
+      "careers_url": "https://stripe.com/jobs",
+      "final_url": "https://stripe.com/en-ca/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Study.com",
+      "careers_url": "http://study.com/pages/Employment.html",
+      "final_url": "https://study.com/pages/Employment.html",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Sunlink",
+      "careers_url": "http://sunlink.com/careers-2/",
+      "final_url": "https://www.nov.com/products-and-services/capabilities/energy-transition",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "SurveyMonkey",
+      "careers_url": "https://www.surveymonkey.com/mp/jobs/",
+      "final_url": "https://www.surveymonkey.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Symphony",
+      "careers_url": "https://symphony.com/company/careers",
+      "final_url": "https://symphony.com/company/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Tableau",
+      "careers_url": "https://careers.tableau.com/listing",
+      "final_url": "https://careers.tableau.com/listing",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.tableau.com/careers"
+    },
+    {
+      "company": "Taco Bell, Corporate",
+      "careers_url": "https://www.tacobell.com/careers",
+      "final_url": "https://www.tacobell.ca/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Takt",
+      "careers_url": "http://www.takt.com/careers",
+      "final_url": "https://takt.com/about-takt/#careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Tango",
+      "careers_url": "https://www.tango.me/careers/",
+      "final_url": "https://tango.me/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "TED",
+      "careers_url": "https://www.ted.com/about/our-organization/jobs-at-ted",
+      "final_url": "https://www.ted.com/about/our-organization/jobs-at-ted",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Teespring",
+      "careers_url": "https://teespring.com/jobs",
+      "final_url": "https://apply.workable.com/spring-for-creators/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Telenav",
+      "careers_url": "http://www.telenav.com/careers",
+      "final_url": "https://www.telenav.com/company/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "TextNow",
+      "careers_url": "http://about.textnow.com/careers/#openings",
+      "final_url": "https://www.textnow.com/careers#openings",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "The Artist Union",
+      "careers_url": "https://theartistunion.com/about",
+      "final_url": "https://theartistunion.com/about",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://theartistunion.com/about"
+    },
+    {
+      "company": "The Climate Corporation",
+      "careers_url": "https://climate.com/careers",
+      "final_url": "https://climate.com/en-us.html",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "The Internet Archive",
+      "careers_url": "https://archive.org/about/jobs.php",
+      "final_url": "https://archive.org/about/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "The League",
+      "careers_url": "http://www.theleague.com/jobs/",
+      "final_url": "http://www.theleague.com/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.theleague.com:443/hire"
+    },
+    {
+      "company": "ThoughtSpot",
+      "careers_url": "http://www.thoughtspot.com/careers",
+      "final_url": "https://www.thoughtspot.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "ThoughtWorks",
+      "careers_url": "https://www.thoughtworks.com/careers",
+      "final_url": "https://www.thoughtworks.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Thumbtack",
+      "careers_url": "https://www.thumbtack.com/jobs/",
+      "final_url": "https://careers.thumbtack.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Tile",
+      "careers_url": "https://www.thetileapp.com/about#careers",
+      "final_url": "https://www.life360.com/en-ca/about#careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Tillster",
+      "careers_url": "http://www.tillster.com/careers/",
+      "final_url": "https://www.tillster.com/company/careers",
+      "ats": "ashby",
+      "board_token": null,
+      "board_url": "https://jobs.ashbyhq.com/Tillster",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Tinder",
+      "careers_url": "https://www.gotinder.com/jobs",
+      "final_url": "https://www.lifeattinder.com",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Tint",
+      "careers_url": "https://www.tintup.com/jobs",
+      "final_url": "https://apply.workable.com/trueloyal/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "TiVo",
+      "careers_url": "https://www.tivo.com/jobs",
+      "final_url": "https://www.tivo.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Top Hat",
+      "careers_url": "https://tophat.com/work-with-us",
+      "final_url": "https://tophat.com/company/work-with-us/",
+      "ats": "ashby",
+      "board_token": null,
+      "board_url": "https://jobs.ashbyhq.com/top-hat",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Trail",
+      "careers_url": "http://careers.trailapp.com",
+      "final_url": "http://careers.trailapp.com",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPConnectionPool(host='careers.trailapp.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='careers.trailapp.com', port=80): Failed to resolve 'careers.trailapp.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "Travis CI",
+      "careers_url": "https://travisci.workable.com/",
+      "final_url": "https://apply.workable.com/travisci/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "TripAdvisor",
+      "careers_url": "https://www.tripadvisor.com/careers/",
+      "final_url": "https://www.tripadvisor.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.tripadvisor.com/careers/"
+    },
+    {
+      "company": "Trustpilot",
+      "careers_url": "https://jobs.trustpilot.com/",
+      "final_url": "https://corporate.trustpilot.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Trustwave",
+      "careers_url": "https://careers.trustwave.com",
+      "final_url": "https://careers.trustwave.com",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPSConnectionPool(host='careers.trustwave.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.trustwave.com', port=443) at 0x10a772710>, 'Connection to careers.trustwave.com timed out. (connect timeout=20)'))"
+    },
+    {
+      "company": "Tumblr",
+      "careers_url": "https://www.tumblr.com/jobs",
+      "final_url": "https://www.tumblr.com/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Twilio",
+      "careers_url": "https://www.twilio.com/company/jobs",
+      "final_url": "https://jobs.twilio.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Twitch",
+      "careers_url": "http://www.twitch.tv/p/jobs/",
+      "final_url": "https://www.twitch.tv/p/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Twitter",
+      "careers_url": "https://careers.twitter.com/careers",
+      "final_url": "https://x.ai/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "greenhouse validation passed but board appears to belong to a different company"
+    },
+    {
+      "company": "Two Roads",
+      "careers_url": "http://tworoads.co.in/#careers",
+      "final_url": "http://tworoads.co.in/#careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "HTTPConnectionPool(host='tworoads.co.in', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='tworoads.co.in', port=80): Failed to resolve 'tworoads.co.in' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "company": "Two Sigma",
+      "careers_url": "https://careers.twosigma.com/",
+      "final_url": "https://careers.twosigma.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Udacity",
+      "careers_url": "https://www.udacity.com/jobs",
+      "final_url": "https://job-boards.greenhouse.io/udacity",
+      "ats": "greenhouse",
+      "board_token": "udacity",
+      "board_url": null,
+      "source": "final_url",
+      "error": null
+    },
+    {
+      "company": "Unity",
+      "careers_url": "https://careers.unity.com",
+      "final_url": "https://unity.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Upwork",
+      "careers_url": "https://www.upwork.com/about/careers/",
+      "final_url": "https://www.upwork.com/about/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.upwork.com/about/careers/"
+    },
+    {
+      "company": "Urban Massage",
+      "careers_url": "https://urban-massage-careers.workable.com/",
+      "final_url": "https://apply.workable.com/oops",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Valve",
+      "careers_url": "http://www.valvesoftware.com/jobs/job_postings.html",
+      "final_url": "https://www.valvesoftware.com/en/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Veeva",
+      "careers_url": "http://jobs.jobvite.com/veeva/jobs",
+      "final_url": "https://www.jobvite.com/support/job-seeker-support/?invalid=1",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Venmo",
+      "careers_url": "https://venmo.com/jobs/",
+      "final_url": "https://venmo.com/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://venmo.com/jobs/"
+    },
+    {
+      "company": "Vertafore",
+      "careers_url": "http://www.vertafore.com/About-Us/Careers/Openings",
+      "final_url": "https://www.vertafore.com/about/join-our-team",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "VEVO",
+      "careers_url": "https://www.vevo.com/careers",
+      "final_url": "https://www.hq.vevo.com/people",
+      "ats": "lever",
+      "board_token": null,
+      "board_url": "https://api.lever.co/v0/postings/vevo",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "VHX",
+      "careers_url": "https://www.vhx.tv/jobs",
+      "final_url": "https://vimeo.com/ott",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Viget",
+      "careers_url": "https://www.viget.com/careers",
+      "final_url": "https://www.viget.com/careers",
+      "ats": "lever",
+      "board_token": null,
+      "board_url": "https://api.lever.co/v0/postings/viget",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Vimeo",
+      "careers_url": "https://vimeo.com/jobs",
+      "final_url": "https://vimeo.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Vox Media",
+      "careers_url": "https://www.voxmedia.com/careers",
+      "final_url": "https://www.voxmedia.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "404 Client Error: Not Found for url: https://www.voxmedia.com/careers"
+    },
+    {
+      "company": "Vultr",
+      "careers_url": "https://www.vultr.com/corporate/careers/",
+      "final_url": "https://www.vultr.com/company/careers/",
+      "ats": "ashby",
+      "board_token": null,
+      "board_url": "https://jobs.ashbyhq.com/Vultr",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Wattpad",
+      "careers_url": "https://www.wattpad.com/life/?jobs",
+      "final_url": "https://company.wattpad.com/culture/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "WayUp",
+      "careers_url": "https://www.wayup.com/joinus/",
+      "final_url": "https://www.wayup.com/organizations/wayup-gxYO8y/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Wealthfront",
+      "careers_url": "https://www.wealthfront.com/careers",
+      "final_url": "https://www.wealthfront.com/careers",
+      "ats": "lever",
+      "board_token": null,
+      "board_url": "https://api.lever.co/v0/postings/wealthfront",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Wealthsimple",
+      "careers_url": "https://www.wealthsimple.com/en-ca/work-with-us",
+      "final_url": "https://www.wealthsimple.com/en-ca/careers",
+      "ats": "ashby",
+      "board_token": null,
+      "board_url": "https://jobs.ashbyhq.com/wealthsimple",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Weebly",
+      "careers_url": "http://careers.weebly.com/",
+      "final_url": "https://careers.squareup.com/ca/en",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Whitepages",
+      "careers_url": "http://about.whitepages.com/careers/",
+      "final_url": "https://about.whitepages.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Wikimedia Foundation",
+      "careers_url": "https://wikimediafoundation.org/wiki/Work_with_us",
+      "final_url": "https://wikimediafoundation.org/jobs/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Wish",
+      "careers_url": "https://www.wish.com/careers",
+      "final_url": "https://www.wish.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Wolt",
+      "careers_url": "https://wolt.com/jobs",
+      "final_url": "https://careers.wolt.com/en",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Workiva",
+      "careers_url": "https://www.workiva.com/careers",
+      "final_url": "https://www.workiva.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.workiva.com/careers"
+    },
+    {
+      "company": "Work Market",
+      "careers_url": "https://www.workmarket.com/careers",
+      "final_url": "https://jobs.adp.com/en/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Xero",
+      "careers_url": "https://www.xero.com/nz/about/careers/",
+      "final_url": "https://careers.xero.com",
+      "ats": "ashby",
+      "board_token": null,
+      "board_url": "https://jobs.ashbyhq.com/xero",
+      "source": "html",
+      "error": null
+    },
+    {
+      "company": "Yelp",
+      "careers_url": "https://www.yelp.com/careers/home",
+      "final_url": "https://www.yelp.careers/us/en",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Yext",
+      "careers_url": "http://www.yext.com/careers/",
+      "final_url": "https://www.yext.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "YouNow",
+      "careers_url": "https://www.younow.com/careers",
+      "final_url": "https://www.younow.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Zalando",
+      "careers_url": "https://jobs.zalando.com/tech/jobs/",
+      "final_url": "https://jobs.zalando.com/en/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Zappos",
+      "careers_url": "https://jobs.zappos.com/choose-your-team",
+      "final_url": "https://amazon.jobs/en/search?business_category%5B%5D=subsidiaries&base_query=zappos",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Zendesk",
+      "careers_url": "https://www.zendesk.com/jobs/",
+      "final_url": "https://www.zendesk.com/company/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Zenefits",
+      "careers_url": "https://www.zenefits.com/careers/",
+      "final_url": "https://www.trinet.com/about-us/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "ZenMate",
+      "careers_url": "https://zenmate.com/jobs/",
+      "final_url": "https://zenmate.com/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Zillow",
+      "careers_url": "https://www.zillow.com/jobs/",
+      "final_url": "https://www.zillow.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "ZocDoc",
+      "careers_url": "https://www.zocdoc.com/about/careers",
+      "final_url": "https://www.zocdoc.com/about/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "403 Client Error: Forbidden for url: https://www.zocdoc.com/about/careers"
+    },
+    {
+      "company": "Zoosk",
+      "careers_url": "https://about.zoosk.com/en/careers/",
+      "final_url": "https://www.spark.net/careers/jobs",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": "html",
+      "error": "ashby validation failed: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/spark-networks"
+    },
+    {
+      "company": "Zscaler",
+      "careers_url": "https://www.zscaler.com/careers",
+      "final_url": "https://www.zscaler.com/careers",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Zuora",
+      "careers_url": "https://www.zuora.com/about/careers/",
+      "final_url": "https://www.zuora.com/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    },
+    {
+      "company": "Zynga",
+      "careers_url": "https://www.zynga.com/careers",
+      "final_url": "https://www.zynga.com/jobs/careers/",
+      "ats": null,
+      "board_token": null,
+      "board_url": null,
+      "source": null,
+      "error": "no supported ATS signature found"
+    }
+  ]
+}

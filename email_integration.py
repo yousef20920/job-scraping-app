@@ -11,6 +11,7 @@ from datetime import datetime
 from email.message import EmailMessage
 from pathlib import Path
 from typing import Dict, List, Any
+from urllib.parse import urlsplit, urlunsplit
 
 logger = logging.getLogger(__name__)
 
@@ -64,9 +65,13 @@ class EmailNotifier:
 
         try:
             sent_state = self._load_sent_state()
+            initial_state_size = len(sent_state)
+            self._hydrate_sent_aliases(sent_state, jobs)
             new_jobs = self._filter_new_jobs(jobs, sent_state)
 
             if not new_jobs:
+                if len(sent_state) != initial_state_size:
+                    self._save_sent_state(sent_state)
                 logger.info("Skipping email digest - no new jobs since last notification")
                 return False
 
@@ -133,21 +138,88 @@ class EmailNotifier:
 
         return "\n".join(lines)
 
-    def _job_fingerprint(self, job: Dict[str, Any]) -> str:
+    def _normalize_text(self, value: Any) -> str:
+        return " ".join(str(value or "").strip().lower().split())
+
+    def _normalize_location(self, value: Any) -> str:
+        normalized = self._normalize_text(value)
+        replacements = {
+            "new york, ny (hq)": "new york, ny",
+            "remote, us": "remote",
+            "remote - us": "remote",
+        }
+        return replacements.get(normalized, normalized)
+
+    def _canonical_url(self, value: Any) -> str:
+        raw_url = str(value or "").strip()
+        if not raw_url:
+            return ""
+
+        parsed = urlsplit(raw_url)
+        path = parsed.path.rstrip("/")
+        if parsed.netloc.endswith("boards.greenhouse.io"):
+            return urlunsplit((parsed.scheme, parsed.netloc, path, "", ""))
+        if parsed.netloc.endswith("jobs.lever.co"):
+            return urlunsplit((parsed.scheme, parsed.netloc, path, "", ""))
+        if parsed.netloc.endswith("jobs.ashbyhq.com"):
+            return urlunsplit((parsed.scheme, parsed.netloc, path, "", ""))
+        return urlunsplit((parsed.scheme, parsed.netloc, path, "", ""))
+
+    def _hash_fingerprint_parts(self, *parts: str) -> str:
+        raw_value = " | ".join(parts)
+        return hashlib.sha256(raw_value.encode("utf-8")).hexdigest()
+
+    def _job_fingerprints(self, job: Dict[str, Any]) -> set[str]:
+        company = self._normalize_text(job.get("company"))
+        title = self._normalize_text(job.get("title"))
+        location = self._normalize_location(job.get("location"))
+        canonical_url = self._canonical_url(job.get("url"))
+        source = self._normalize_text(job.get("source"))
+        fingerprints: set[str] = set()
+
         job_id = str(job.get("id", "")).strip()
         if job_id:
-            return job_id
+            fingerprints.add(f"id:{job_id}")
 
-        raw_value = " | ".join(
-            [
-                str(job.get("company", "")).strip().lower(),
-                str(job.get("title", "")).strip().lower(),
-                str(job.get("location", "")).strip().lower(),
-                str(job.get("url", "")).strip().lower(),
-                str(job.get("source", "")).strip().lower(),
-            ]
+        if company and title:
+            fingerprints.add(
+                "role:"
+                + self._hash_fingerprint_parts(company, title, location)
+            )
+            fingerprints.add(
+                "role_nolocation:"
+                + self._hash_fingerprint_parts(company, title)
+            )
+
+        if company and title and canonical_url:
+            fingerprints.add(
+                "url_role:"
+                + self._hash_fingerprint_parts(company, title, canonical_url)
+            )
+
+        if canonical_url:
+            fingerprints.add("url:" + canonical_url.lower())
+
+        if company and title and source:
+            fingerprints.add(
+                "source_role:"
+                + self._hash_fingerprint_parts(company, title, source, location)
+            )
+
+        if fingerprints:
+            return fingerprints
+
+        fingerprints.add(
+            "fallback:"
+            + self._hash_fingerprint_parts(
+                company,
+                title,
+                location,
+                canonical_url,
+                source,
+            )
         )
-        return hashlib.sha256(raw_value.encode("utf-8")).hexdigest()
+        return fingerprints
 
     def _load_sent_state(self) -> Dict[str, str]:
         if not self.state_file.exists():
@@ -170,15 +242,37 @@ class EmailNotifier:
     ) -> List[Dict[str, Any]]:
         new_jobs: List[Dict[str, Any]] = []
         for job in jobs:
-            fingerprint = self._job_fingerprint(job)
-            if fingerprint not in sent_state:
+            fingerprints = self._job_fingerprints(job)
+            if not any(fingerprint in sent_state for fingerprint in fingerprints):
                 new_jobs.append(job)
         return new_jobs
+
+    def _hydrate_sent_aliases(
+        self,
+        sent_state: Dict[str, str],
+        jobs: List[Dict[str, Any]],
+    ) -> None:
+        for job in jobs:
+            job_id = str(job.get("id", "")).strip()
+            if not job_id:
+                continue
+
+            legacy_keys = [job_id, f"id:{job_id}"]
+            existing_timestamp = next(
+                (sent_state[key] for key in legacy_keys if key in sent_state),
+                None,
+            )
+            if not existing_timestamp:
+                continue
+
+            for fingerprint in self._job_fingerprints(job):
+                sent_state.setdefault(fingerprint, existing_timestamp)
 
     def _update_sent_state(self, sent_state: Dict[str, str], jobs: List[Dict[str, Any]]) -> None:
         now = datetime.now().isoformat()
         for job in jobs:
-            sent_state[self._job_fingerprint(job)] = now
+            for fingerprint in self._job_fingerprints(job):
+                sent_state[fingerprint] = now
 
         if len(sent_state) > self.state_limit:
             sorted_items = sorted(sent_state.items(), key=lambda item: item[1], reverse=True)
