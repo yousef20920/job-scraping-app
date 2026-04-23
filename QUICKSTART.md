@@ -114,7 +114,7 @@ cat logs/job_scraping_*.log
    - `SMTP_PASSWORD`: your Gmail app password
    - `EMAIL_TO`: recipient email address, or multiple comma-separated addresses
    - `EMAIL_FROM`: usually the same Gmail address
-   - Optional: `SMTP_HOST=smtp.gmail.com`, `SMTP_PORT=465`, `ENABLE_EMAIL_NOTIFICATIONS=true`
+   - Optional: `SMTP_HOST=smtp.gmail.com`, `SMTP_PORT=465`, `ENABLE_EMAIL_NOTIFICATIONS=true` to enable email delivery
 
 4. **Trigger workflow**
    - Go to Actions tab

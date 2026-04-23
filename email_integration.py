@@ -38,7 +38,7 @@ class EmailNotifier:
         self.enabled = self._is_enabled()
 
     def _is_enabled(self) -> bool:
-        if not _env_truthy(os.getenv("ENABLE_EMAIL_NOTIFICATIONS", "true")):
+        if not _env_truthy(os.getenv("ENABLE_EMAIL_NOTIFICATIONS", "false")):
             return False
 
         required_values = [

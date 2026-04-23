@@ -1,10 +1,7 @@
-name: Daily Job Scraping
+name: Daily Job Scraping (disabled)
 
 on:
-  schedule:
-    # Run every 30 minutes (UTC)
-    - cron: '*/30 * * * *'
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:
 
 concurrency:
   group: job-scraping-workflow
@@ -16,6 +13,7 @@ permissions:
 
 jobs:
   scrape-jobs:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     
     steps:

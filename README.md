@@ -94,7 +94,7 @@ Configure these secrets in your repository:
 - `EMAIL_FROM`: Optional sender address override, usually the same Gmail address
 - `SMTP_HOST`: Optional, defaults to `smtp.gmail.com`
 - `SMTP_PORT`: Optional, defaults to `465`
-- `ENABLE_EMAIL_NOTIFICATIONS`: Optional, set to `true` to force-enable email delivery in Actions
+- `ENABLE_EMAIL_NOTIFICATIONS`: Optional, defaults to `false`; set to `true` to enable email delivery
 
 ## Usage
 
